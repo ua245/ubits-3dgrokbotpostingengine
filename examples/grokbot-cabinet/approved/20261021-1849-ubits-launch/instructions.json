@@ -1,0 +1,48 @@
+{
+  "card_id": "20261021-1849-ubits-launch",
+  "card_version": 3,
+  "approved": true,
+  "approved_at": "2026-10-21T19:02:00Z",
+  "ai_generated": false,
+  "media": [
+    { "file": "launch.mp4", "type": "video" }
+  ],
+  "posts": [
+    {
+      "platform": "instagram",
+      "format": "reel",
+      "caption": "Small agents, one job each.\n\nubits are tiny AI agents that hand work to each other, with a human saying YES before anything goes live.\n\nFollow for the build log.",
+      "hashtags": ["ubits", "AIagents", "buildinpublic", "hackathon", "automation"],
+      "schedule": "now"
+    },
+    {
+      "platform": "youtube",
+      "format": "short",
+      "title": "ubits: small AI agents, one job each",
+      "description": "A first look at the ubits.tech agent pipeline: ideas in, a human approves on WhatsApp, posts go out.",
+      "hashtags": ["Shorts", "AIagents", "ubits"],
+      "privacy": "private",
+      "schedule": "now"
+    },
+    {
+      "platform": "linkedin",
+      "as": "personal",
+      "text": "We're building ubits.tech: small AI agents (\"ubits\") that each do one job well and pass work along.\n\nThe rule we won't bend: nothing is published without a human saying YES to that exact version.\n\nMore soon.",
+      "hashtags": ["AI", "agents", "automation"],
+      "schedule": "now"
+    },
+    {
+      "platform": "x",
+      "text": "Small agents, one job each. Nothing goes live without a human YES.",
+      "hashtags": ["ubits"],
+      "schedule": "now"
+    },
+    {
+      "platform": "tiktok",
+      "caption": "Small agents, one job each. Watch them hand off work.",
+      "hashtags": ["ubits", "AI", "tech"],
+      "privacy": "private",
+      "schedule": "now"
+    }
+  ]
+}

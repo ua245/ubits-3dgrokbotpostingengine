@@ -1,0 +1,45 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ["3.10", "3.12", "3.13"]   # 3.10 = Switch (L4T Ubuntu Jammy)
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+          cache: pip
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends ffmpeg
+      - name: Install
+        run: pip install -e ".[dev]" ruff
+      - name: Lint
+        run: ruff check --select E,F,W,B,UP --ignore UP031,UP035 --target-version py310 --line-length 120 grokbot_publisher tests
+      - name: Test
+        run: pytest -q
+      - name: Dry run the example card
+        run: |
+          ./examples/make-demo-media.sh
+          GROKBOT_CABINET=examples/grokbot-cabinet PUBLISHER_STATE_DIR="$RUNNER_TEMP/state" \
+            python -m grokbot_publisher preview 20261021-1849-ubits-launch --json > "$RUNNER_TEMP/preview.json"
+          python -c "import json,sys; r=json.load(open(sys.argv[1])); assert r['overall']=='dry_run', r" "$RUNNER_TEMP/preview.json"
+
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build image
+        run: docker build -t grokbot-publisher:ci .
+      - name: Smoke test
+        run: docker run --rm grokbot-publisher:ci --version

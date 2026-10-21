@@ -1,0 +1,28 @@
+# systemd unit for the watcher (laptop or Linux-booted Switch).
+#   sudo cp deploy/grokbot-publisher.service /etc/systemd/system/
+#   sudo systemctl daemon-reload && sudo systemctl enable --now grokbot-publisher
+#   journalctl -u grokbot-publisher -f
+[Unit]
+Description=Grokbot Publisher (watches /approved/ and posts approved cards)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=grokbot
+WorkingDirectory=/opt/grokbot-publisher
+EnvironmentFile=/opt/grokbot-publisher/.env
+ExecStart=/opt/grokbot-publisher/.venv/bin/grokbot-publisher watch
+Restart=on-failure
+RestartSec=10
+# SIGTERM lets the current card finish its current step, then exits.
+KillSignal=SIGTERM
+TimeoutStopSec=120
+# Keep the encoder from starving the local LLM on a 4 GB device.
+Nice=10
+MemoryMax=1500M
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

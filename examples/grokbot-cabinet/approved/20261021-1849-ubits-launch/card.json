@@ -1,0 +1,29 @@
+{
+  "card_id": "20261021-1849-ubits-launch",
+  "card_version": 3,
+  "brand": "ubits.tech",
+  "input_source": "phone_manual",
+  "route": "own_upload",
+  "user_brief": "Launch teaser for the ubits pipeline using my own screen recording.",
+  "source": { "url": "", "original_creator": "", "media_type": "video" },
+  "target_platforms": ["instagram", "youtube", "linkedin", "x", "tiktok"],
+  "orchestrator_confidence": "high",
+  "clarification": { "asked": false, "question": "", "chat_link": "", "user_answer": "" },
+  "drafts": [],
+  "copyright": { "verdict": "CLEAR", "issues": [], "required_fixes": [] },
+  "filing": {
+    "path": "/grokbot-cabinet/approved/20261021-1849-ubits-launch/",
+    "instruction_file": "instructions.json"
+  },
+  "filing_report": { "status": "filed", "summary_for_user": "", "preview": "" },
+  "approval": {
+    "status": "approved",
+    "approved_version": 3,
+    "approved_at": "2026-10-21T19:02:00Z",
+    "user_feedback": "YES"
+  },
+  "history": [
+    "2026-10-21T18:49:00Z orchestrator: card created from phone_manual upload",
+    "2026-10-21T19:02:00Z orchestrator: user replied YES to v3"
+  ]
+}
