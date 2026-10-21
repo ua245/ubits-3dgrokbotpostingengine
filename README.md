@@ -191,7 +191,7 @@ Exit codes: `0` done (or dry run / scheduled), `1` setup/usage error, `2` gate r
 
 * **Laptop or Switch, as a service:** `deploy/grokbot-publisher.service` (systemd, niced, memory-capped so
   encoding doesn't starve the local LLM).
-* **Docker:** `docker build -t grokbot-publisher . && docker run --env-file .env -v "$PWD/grokbot-cabinet:/data/cabinet" -v "$HOME/.config/grokbot-publisher:/data/config" grokbot-publisher`
+* **Docker:** `docker build -t grokbot-publisher . && docker run --env-file .env --user "$(id -u):$(id -g)" -v "$PWD/grokbot-cabinet:/data/cabinet" -v "$HOME/.config/grokbot-publisher:/data/config" grokbot-publisher`
 * **Cron instead of a daemon:** `*/2 * * * * grokbot-publisher watch --once`
 * **On the Switch:** L4T Ubuntu Jammy ships Python 3.10, which is supported and tested in CI. 1080p
   re-encodes are slow on the Tegra X1, so give the Switch already-compliant H.264 MP4s where you can
