@@ -28,7 +28,8 @@ def run(publisher, online: bool = False) -> list[tuple[str, str, str]]:
         if not path:
             add(FAIL, binary, "not found; install ffmpeg (needed for video)")
             continue
-        out = subprocess.run([path, "-version"], capture_output=True, text=True).stdout.split("\n", 1)[0]
+        proc = subprocess.run([path, "-version"], capture_output=True, text=True, stdin=subprocess.DEVNULL)
+        out = proc.stdout.split("\n", 1)[0]
         add(OK, binary, out[:80])
 
     missing = [f for f in FOLDERS if not (s.cabinet / f).is_dir()]

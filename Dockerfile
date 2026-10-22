@@ -1,4 +1,4 @@
-# Multi-arch friendly (amd64 laptop/cloud, arm64 Switch/L4T):
+# Multi-arch friendly (amd64 and arm64, e.g. Apple Silicon or ARM servers):
 #   docker build -t grokbot-publisher .
 #   docker run --rm --env-file .env --user "$(id -u):$(id -g)" \
 #     -v "$PWD/grokbot-cabinet:/data/cabinet" -v "$HOME/.config/grokbot-publisher:/data/config" \

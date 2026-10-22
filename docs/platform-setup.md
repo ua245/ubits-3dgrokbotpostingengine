@@ -1,6 +1,6 @@
 # Connecting the platform accounts
 
-Every platform uses the same two-step flow, and it works on a headless Switch:
+Every platform uses the same two-step flow, and it works on a headless machine too:
 
 ```bash
 grokbot-publisher auth url <platform>        # prints a link: open it on any device and approve

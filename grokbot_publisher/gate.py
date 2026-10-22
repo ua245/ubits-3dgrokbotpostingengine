@@ -16,6 +16,10 @@ Checks, in order:
  8. approved_at is present, has a timezone and isn't in the future
  9. every post's platform is known and enabled; schedules are valid
 10. every media file exists inside the card folder and is non-empty
+
+Preview mode (used only for dry runs, which never send anything) skips the
+approval checks 2, 5 and 8 and also accepts cards in /inbox/, so the exact
+final text can be shown *before* the human approves it.
 """
 
 from __future__ import annotations
@@ -67,8 +71,10 @@ def check(
     *,
     expect_version: int | None = None,
     enabled_platforms: tuple[str, ...] = ALL_PLATFORMS,
+    preview: bool = False,
 ) -> GatePass:
     reasons: list[str] = []
+    allowed_folders = ("approved", "inbox") if preview else ("approved",)
 
     if not valid_card_id(card_id):
         raise GateRefused([f"invalid card_id {card_id!r}"])
@@ -76,7 +82,7 @@ def check(
     if found is None:
         raise GateRefused([f"card {card_id} not found in the cabinet"])
     folder, card_dir = found
-    if folder != "approved":
+    if folder not in allowed_folders:
         raise GateRefused([f"card is in /{folder}/, not /approved/"])
 
     try:
@@ -91,7 +97,7 @@ def check(
         raise GateRefused([f"instructions.json: {exc}"]) from None
 
     # 2. approved must be the boolean true, not "true", 1, "yes"...
-    if instr.approved is not True:
+    if not preview and instr.approved is not True:
         reasons.append(f'"approved" is {json.dumps(instr.approved)}, not true')
 
     # 3.
@@ -114,16 +120,8 @@ def check(
                 f"card.json is v{card.get('card_version')} but instructions.json is v{instr.card_version} "
                 "(card was edited after instructions were written)"
             )
-        approval = card.get("approval") if isinstance(card.get("approval"), dict) else {}
-        if approval.get("status") != "approved":
-            reasons.append(f"approval.status is {approval.get('status')!r}, not 'approved'")
-        approved_version = approval.get("approved_version")
-        if approved_version is None or isinstance(approved_version, bool):
-            reasons.append(
-                "approval.approved_version is not recorded, so there's no proof the YES covered this version"
-            )
-        elif approved_version != instr.card_version:
-            reasons.append(f"YES was given for v{approved_version}, but this is v{instr.card_version}")
+        if not preview:
+            reasons += _approval_problems(card, instr.card_version)
 
     # 6.
     if expect_version is not None and expect_version != instr.card_version:
@@ -136,15 +134,8 @@ def check(
             reasons.append("content changed after approval (content_sha256 mismatch)")
 
     # 8.
-    if not instr.approved_at:
-        reasons.append("approved_at is missing")
-    else:
-        try:
-            approved_at = parse_iso(instr.approved_at)
-            if approved_at > utcnow() + CLOCK_SKEW:
-                reasons.append(f"approved_at {instr.approved_at} is in the future")
-        except ValueError as exc:
-            reasons.append(f"approved_at: {exc}")
+    if not preview:
+        reasons += _approved_at_problems(instr.approved_at)
 
     # 9.
     for post in instr.posts:
@@ -176,3 +167,30 @@ def check(
     if reasons:
         raise GateRefused(reasons)
     return GatePass(card_dir=card_dir, instructions=instr, card=card)
+
+
+def _approval_problems(card: dict, version: int) -> list[str]:
+    """Check 5: the recorded YES covers exactly this version."""
+    approval = card.get("approval") if isinstance(card.get("approval"), dict) else {}
+    problems = []
+    if approval.get("status") != "approved":
+        problems.append(f"approval.status is {approval.get('status')!r}, not 'approved'")
+    approved_version = approval.get("approved_version")
+    if approved_version is None or isinstance(approved_version, bool):
+        problems.append("approval.approved_version is not recorded, so there's no proof the YES covered this version")
+    elif approved_version != version:
+        problems.append(f"YES was given for v{approved_version}, but this is v{version}")
+    return problems
+
+
+def _approved_at_problems(value: str) -> list[str]:
+    """Check 8: approved_at exists, has a timezone and isn't in the future."""
+    if not value:
+        return ["approved_at is missing"]
+    try:
+        approved_at = parse_iso(value)
+    except ValueError as exc:
+        return [f"approved_at: {exc}"]
+    if approved_at > utcnow() + CLOCK_SKEW:
+        return [f"approved_at {value} is in the future"]
+    return []

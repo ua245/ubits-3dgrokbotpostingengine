@@ -71,7 +71,7 @@ class LockBusy(RuntimeError):
 def file_lock(path: Path, stale_after: float = 6 * 3600, wait: float = 0.0) -> Iterator[None]:
     """Cross-platform exclusive lock using O_EXCL lock files.
 
-    Works on Linux (Switch), macOS and Windows. A lock older than `stale_after`
+    Works on Linux, macOS and Windows. A lock older than `stale_after`
     seconds, or held by a dead PID on this host, is treated as abandoned.
     """
     path.parent.mkdir(parents=True, exist_ok=True)

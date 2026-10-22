@@ -106,7 +106,7 @@ class Publisher:
     def _run(self, report: CardReport, card_id: str, expect_version, only, dry_run, force_repost) -> None:
         try:
             gp = gate_check(self.cabinet, card_id, expect_version=expect_version,
-                            enabled_platforms=self.s.enabled_platforms)
+                            enabled_platforms=self.s.enabled_platforms, preview=dry_run)
         except GateRefused as exc:
             report.refused_reasons = exc.reasons
             log.warning("gate refused %s: %s", card_id, "; ".join(exc.reasons))

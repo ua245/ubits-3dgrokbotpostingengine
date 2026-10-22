@@ -1,4 +1,4 @@
-# systemd unit for the watcher (laptop or Linux-booted Switch).
+# systemd unit for the watcher (any Linux box or server).
 #   sudo cp deploy/grokbot-publisher.service /etc/systemd/system/
 #   sudo systemctl daemon-reload && sudo systemctl enable --now grokbot-publisher
 #   journalctl -u grokbot-publisher -f
@@ -18,7 +18,7 @@ RestartSec=10
 # SIGTERM lets the current card finish its current step, then exits.
 KillSignal=SIGTERM
 TimeoutStopSec=120
-# Keep the encoder from starving the local LLM on a 4 GB device.
+# Keep re-encodes from starving Blender renders on the same machine.
 Nice=10
 MemoryMax=1500M
 NoNewPrivileges=true

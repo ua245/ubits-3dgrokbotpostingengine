@@ -8,7 +8,7 @@ Backends:
          cloudflared tunnel). Handy when you have no bucket.
 
 SigV4 presigning is implemented here (about 40 lines, checked against AWS's
-published test vector) so the Switch doesn't need boto3/botocore.
+published test vector) so the Publisher doesn't need boto3/botocore.
 """
 
 from __future__ import annotations

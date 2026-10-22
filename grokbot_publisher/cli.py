@@ -1,6 +1,6 @@
 """Command line interface.
 
-Exit codes (stable, so the local LLM wrapper / Orchestrator can branch on them):
+Exit codes (stable, so Cursor CLI or any other caller can branch on them):
     0  everything due was posted (or dry run / check passed / scheduled)
     1  usage or setup error
     2  safety gate refused the card (nothing was posted)
@@ -20,13 +20,14 @@ import threading
 import time
 from pathlib import Path
 
-from grokbot_publisher import __version__
+from grokbot_publisher import __version__, approval
 from grokbot_publisher.auth import OAuth
 from grokbot_publisher.cabinet import Cabinet
 from grokbot_publisher.config import ALL_PLATFORMS, Settings, load_dotenv
 from grokbot_publisher.errors import GateRefused, PublisherError
 from grokbot_publisher.gate import check as gate_check
 from grokbot_publisher.gate import fingerprint
+from grokbot_publisher.models import valid_card_id
 from grokbot_publisher.runner import Publisher
 from grokbot_publisher.util import iso
 
@@ -89,7 +90,7 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--expect-version", type=int)
     p.add_argument("--json", action="store_true")
 
-    p = sub.add_parser("trigger", help="strict JSON trigger for the local LLM: "
+    p = sub.add_parser("trigger", help="strict JSON trigger for agents: "
                                        '{"action":"publish","card_id":"...","card_version":3}')
     p.add_argument("payload", nargs="?", default="-", help="JSON string, or - for stdin")
     p.add_argument("--json", action="store_true")
@@ -120,6 +121,22 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("card_id")
 
     sub.add_parser("init", help="create the cabinet folders")
+
+    p = sub.add_parser("new-card", help="file a rendered video/image into /inbox/ as a new v1 card")
+    p.add_argument("slug", help="short-hyphenated-name, e.g. orbiting-cubes")
+    p.add_argument("media", nargs="+", type=Path, help="rendered video (or images)")
+    p.add_argument("--platforms", type=_platforms, help="default: all five")
+    p.add_argument("--brief", default="", help="one line on what the video is")
+    p.add_argument("--no-ai-generated", action="store_true",
+                   help="don't set the AI-content disclosure flags (default: set them)")
+
+    p = sub.add_parser("approve", help="YOU approve one exact card version (refuses to run for an agent)")
+    p.add_argument("card_id")
+    p.add_argument("--version", type=int, required=True, help="the version you're saying YES to")
+
+    p = sub.add_parser("revise", help="reopen a card for edits: bump version, clear approval, back to /inbox/")
+    p.add_argument("card_id")
+    p.add_argument("--reason", default="")
 
     p = sub.add_parser("doctor", help="check ffmpeg, tokens, storage and API access")
     p.add_argument("--online", action="store_true", help="also call each API and test the storage link")
@@ -159,7 +176,7 @@ def _print_report(report, as_json: bool) -> None:
 
 
 def parse_trigger(text: str) -> tuple[str, int]:
-    """The local LLM may only say *which* approved card to post. Anything
+    """An agent may only say *which* approved card to post. Anything
     else in the payload is rejected rather than ignored."""
     try:
         data = json.loads(text)
@@ -274,6 +291,23 @@ def dispatch(args, settings: Settings) -> int:
         print(fingerprint(found[1]))
         return 0
 
+    if args.cmd == "new-card":
+        platforms = tuple(p for p in ALL_PLATFORMS if p in args.platforms) if args.platforms else ALL_PLATFORMS
+        card_dir = approval.new_card(pub.cabinet, args.slug, args.media, platforms=platforms, brief=args.brief,
+                                     ai_generated=not args.no_ai_generated)
+        print(card_dir.name)
+        print(f"created {card_dir} (v1). Fill in the captions in instructions.json, then run:\n"
+              f"  grokbot-publisher preview {card_dir.name}", file=sys.stderr)
+        return 0
+
+    if args.cmd == "approve":
+        return _approve(pub, args.card_id, args.version)
+
+    if args.cmd == "revise":
+        card_dir, version = approval.revise(pub.cabinet, args.card_id, args.reason)
+        print(f"{card_dir.name} is now v{version} in /inbox/, not approved. Edit, preview, then approve v{version}.")
+        return 0
+
     if args.cmd == "init":
         Cabinet(settings.cabinet).ensure()
         settings.state_dir.mkdir(parents=True, exist_ok=True)
@@ -319,3 +353,42 @@ def dispatch(args, settings: Settings) -> int:
         return 0
 
     return 1
+
+
+def _approve(pub: Publisher, card_id: str, version: int) -> int:
+    """The human YES. It must be typed by a person: agents (Cursor, Claude, the
+    Orchestrator) run commands without a terminal, so they are refused here."""
+    if not (sys.stdin.isatty() and sys.stdout.isatty()):
+        print("error: approve must be run by a person in an interactive terminal; agents can't approve posts",
+              file=sys.stderr)
+        return 1
+    found = pub.cabinet.find(card_id) if valid_card_id(card_id) else None
+    shown = fingerprint(found[1]) if found else None
+    report = pub.publish(card_id, expect_version=version, dry_run=True)
+    if report.refused_reasons:
+        _print_report(report, as_json=False)
+        return 2
+    print(f"\n=== {card_id} v{version}: exactly what will be posted ===")
+    for r in report.results:
+        cost = f", est. cost ${r.est_cost_usd:.3f}" if r.est_cost_usd else ""
+        print(f"\n[{r.platform}] privacy: {r.privacy or '-'}{cost}")
+        if r.error:
+            print(f"  PROBLEM: {r.error}")
+        for name, value in (r.preview.get("fields") or {}).items():
+            if value and name != "commentary":
+                print(f"  {name}: {value}")
+        for m in r.preview.get("media") or []:
+            print(f"  media: {m['file']} {m['dimensions']}" + (f" {m['duration_s']}s" if "duration_s" in m else ""))
+        for note in r.notes:
+            print(f"  note: {note}")
+    if any(r.status not in ("dry_run",) for r in report.results):
+        print("\nSome posts have problems (above). Fix them before approving.")
+        return 2
+    answer = input(f"\nType the card id to approve v{version} for posting: ").strip()
+    if answer != card_id:
+        print("not approved")
+        return 1
+    card_dir = approval.approve(pub.cabinet, card_id, version, shown_sha256=shown)
+    print(f"approved v{version} ({card_dir}). Publish with:\n"
+          f"  grokbot-publisher publish {card_id} --expect-version {version}")
+    return 0

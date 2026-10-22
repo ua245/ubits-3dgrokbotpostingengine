@@ -1,8 +1,9 @@
 # Grokbot Publisher
 
-The **Publisher** is the last step of the Grokbot content pipeline for ubits.tech. It is a plain,
-rule-following Python program, not an AI. The Orchestrator, or the local LLM on the Switch, only tells
-it *which* approved card to post. The Publisher then runs the same steps in the same order every time:
+The **Publisher** is the last step of the ubits.tech content pipeline: 3D short videos made with Claude +
+Blender MCP, filed and published by Cursor CLI. The Publisher itself is a plain, rule-following Python
+program, not an AI. An agent only tells it *which* approved card to post. The Publisher then runs the same
+steps in the same order every time:
 
 ```
 watch /approved/ ─► safety gate ─► prepare per platform ─► post (official APIs) ─► report ─► log
@@ -11,7 +12,36 @@ watch /approved/ ─► safety gate ─► prepare per platform ─► post (off
                                                                contained               webhook, ledger
 ```
 
-It runs on a laptop and on a Linux-booted Switch (Python 3.10+, ffmpeg, about 30 MB of dependencies, no boto3).
+It runs on any laptop or server (Python 3.10+, ffmpeg, about 30 MB of dependencies, no boto3).
+
+## The pipeline
+
+| Stage | Who | What happens | Command |
+|---|---|---|---|
+| 1. Make | Claude + Blender MCP | Builds the scene and renders a vertical short (settings below). Keeps a list of every asset used and where it came from. | (Blender) |
+| 2. File | Cursor CLI | Files the render as a v1 card in `/inbox/`, writes the captions and asset list, then previews. | `new-card`, `preview` |
+| 3. **Approve** | **You, in your own terminal** | You see exactly what will post, per platform, and type the card id to say YES. Agents can't run this: it refuses any shell without a real terminal. | `approve <id> --version N` |
+| 4. Publish | Cursor CLI | Posts the approved version and relays the links. | `publish <id> --expect-version N` |
+| Edits | Cursor CLI | Any change after a YES bumps the version and clears the approval, so it needs a new YES. | `revise <id>` |
+
+**Render settings that skip re-encoding:** 1080x1920, 30 fps, 3-60 s (fits every platform), H.264 +
+`yuv420p`, AAC audio or none. Rendering PNG frames and assembling them with
+`ffmpeg -framerate 30 -i frames/%04d.png -c:v libx264 -pix_fmt yuv420p -crf 18 -movflags +faststart render.mp4`
+works on any Blender version, and a crashed render can resume from the last frame. Only X gets a re-encode
+(down to 720x1280).
+
+**Asset licences** (this replaces the Copyright ubit's checks for 3D work; when unsure, don't post):
+
+* **Poly Haven:** CC0, fine to use.
+* **Sketchfab:** licensed per model. CC-BY means credit the creator in the caption. NonCommercial, NoDerivs
+  and Editorial licences don't fit a company account, so don't use them.
+* **Hyper3D Rodin and other generators:** check that your plan allows commercial use of what it generates.
+* **Hunyuan3D:** the 2.x licence **excludes the EU, UK and South Korea**. Don't use it if you're based there.
+* **Audio:** no copyrighted music. The APIs can't attach platform-licensed tracks, so ship silent or your own
+  or royalty-free audio.
+* **Brands and people:** no third-party logos or real people.
+* **AI disclosure:** `new-card` sets `ai_generated: true` by default (IG, TikTok and YouTube disclosure
+  flags). Pass `--no-ai-generated` only for scenes you'd defend as not AI-generated.
 
 ---
 
@@ -60,9 +90,11 @@ card is refused, nothing goes anywhere, and the reasons are reported back. No fl
 | 9 | Every platform is known and enabled; every `schedule` has a timezone | |
 | 10 | Every media file exists, is non-empty and sits inside the card folder | |
 
-> **Schema addition:** check 5 needs `approval.approved_version` in `card.json`. The schema in the
-> brief only has `approval.status`. The Orchestrator or Filing must write the version number that the YES
-> referred to. Without it, the card is refused.
+> **Schema addition:** check 5 needs `approval.approved_version` in `card.json`. `approve` writes it, together
+> with `approved_at` and `content_sha256`, so nobody edits approval fields by hand.
+>
+> **Preview mode:** `preview` (a dry run that sends nothing) skips the approval checks (2, 5, 8) and also
+> accepts cards in `/inbox/`, so you can see the final text *before* you approve it.
 
 ## What happens after the gate
 
@@ -75,7 +107,7 @@ For each post, in card order and one platform at a time:
 3. **Prepare** (no network). Captions are fitted to each platform's counting rules and hashtags are
    placed at the end. Media is re-encoded only if it's out of spec: compliant files are used untouched,
    and a file that only lacks `faststart` is remuxed in seconds. Encodes are cached by (file, spec), so
-   Instagram, TikTok and LinkedIn share one 1080p encode, and a retry doesn't re-encode on the Switch.
+   Instagram, TikTok and LinkedIn share one 1080p encode, and a retry doesn't re-encode.
 4. **Post** through the platform's official API.
 5. **Record** a ledger line the moment the post is live, before anything else can go wrong.
 
@@ -91,8 +123,7 @@ Failure handling is the same for every platform:
 
 Over-long captions are trimmed by default: hashtags are dropped from the end first, then the body is cut
 at a word boundary with an ellipsis. Every trim is listed in the report. Set `PUBLISHER_CAPTION_POLICY=strict`
-to refuse instead. Run `preview` before asking for the WhatsApp YES, so the text you approve is exactly the
-text that will be posted. **Videos are never cut**: a video that's too long for a platform fails validation.
+to refuse instead. `approve` shows the trimmed text, so what you approve is exactly what will be posted. **Videos are never cut**: a video that's too long for a platform fails validation.
 
 ## Reporting back to Filing
 
@@ -114,7 +145,7 @@ Every run writes `publish_report.json` into the card folder, adds one line to `c
 }
 ```
 
-`summary_for_user` is ready for the Orchestrator to forward on WhatsApp as is. When `complete` is true,
+`summary_for_user` is ready to forward as is (Cursor prints it; the webhook can send it anywhere). When `complete` is true,
 Filing moves the card to `/published/` (or pass `--move-on-success` to let the Publisher do it).
 
 ## Takedown
@@ -174,8 +205,11 @@ here is ignored.
 | Command | What it does |
 |---|---|
 | `publish <card_id> [--expect-version N] [--only instagram,x] [--dry-run] [--json]` | Post one card. |
-| `preview <card_id>` | Gate + prepare, send nothing. Shows the final text and media per platform. |
-| `trigger '<json>'` | The **only** interface for the local LLM: `{"action":"publish","card_id":"…","card_version":3}`. Any other field is rejected, so the model can't change content. |
+| `new-card <slug> <render.mp4> [--platforms …] [--brief …]` | File a render as a v1 card in `/inbox/` with empty captions. Prints the card id. |
+| `preview <card_id>` | Prepare everything and send nothing; works on unapproved cards in `/inbox/`. Shows the final text and media per platform. |
+| `approve <card_id> --version N` | **Human only.** Shows the preview, asks you to type the card id, records the approval and moves the card to `/approved/`. Refuses if the card changed while you were reading. |
+| `revise <card_id> [--reason …]` | Bump the version, clear the approval, move back to `/inbox/` for edits. |
+| `trigger '<json>'` | Strict interface for agents: `{"action":"publish","card_id":"…","card_version":3}`. Any other field is rejected, so an agent can't change content. |
 | `check <card_id> [--expect-version N]` | Safety gate only. |
 | `watch [--interval 30] [--once]` | Poll `/approved/`; post cards never attempted at their version; run due schedules. Failed and rate-limited posts are not retried automatically. |
 | `takedown <card_id> [--platform p] --yes` | Delete live posts (see above). |
@@ -189,13 +223,10 @@ Exit codes: `0` done (or dry run / scheduled), `1` setup/usage error, `2` gate r
 
 ## Running it
 
-* **Laptop or Switch, as a service:** `deploy/grokbot-publisher.service` (systemd, niced, memory-capped so
-  encoding doesn't starve the local LLM).
+* **As a service (Linux):** `deploy/grokbot-publisher.service` (systemd, niced and memory-capped so
+  re-encodes don't starve Blender renders). Most of the time you won't need it: Cursor runs `publish` directly.
 * **Docker:** `docker build -t grokbot-publisher . && docker run --env-file .env --user "$(id -u):$(id -g)" -v "$PWD/grokbot-cabinet:/data/cabinet" -v "$HOME/.config/grokbot-publisher:/data/config" grokbot-publisher`
 * **Cron instead of a daemon:** `*/2 * * * * grokbot-publisher watch --once`
-* **On the Switch:** L4T Ubuntu Jammy ships Python 3.10, which is supported and tested in CI. 1080p
-  re-encodes are slow on the Tegra X1, so give the Switch already-compliant H.264 MP4s where you can
-  (`preview` tells you which files need work). Set `PUBLISHER_FFMPEG_PRESET=ultrafast` if encodes are too slow.
 
 Tokens live in `~/.config/grokbot-publisher/tokens.json` (chmod 600), outside the repo and the cabinet.
 
@@ -225,7 +256,7 @@ same. That swap is reasonable if app reviews block you, but it isn't needed for 
 
 ```bash
 pip install -e ".[dev]"
-pytest -q        # 115 tests: gate, retry policy, media (real ffmpeg), every platform flow (mocked), CLI, OAuth
+pytest -q        # 123 tests: gate, retry policy, media (real ffmpeg), every platform flow (mocked), CLI, OAuth
 ```
 
 The S3/R2 presigner (`storage.py`) is checked against AWS's published SigV4 test vector in the suite. It

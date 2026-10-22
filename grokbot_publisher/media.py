@@ -4,7 +4,7 @@ Principle: touch the media as little as possible. A file that already meets
 the spec is used as-is. A file that only lacks "faststart" is remuxed (no
 quality loss, seconds). Only out-of-spec files are re-encoded. Results are
 cached by (source file, spec), so Instagram and TikTok share one encode and a
-retry after a failure doesn't re-encode on the Switch's slow CPU.
+retry after a failure doesn't re-encode.
 
 Duration is never "fixed" by cutting: an approved video is posted whole or
 not at all, so a too-long video is a validation error.
@@ -95,7 +95,7 @@ class MediaTool:
                 self._require(self.ffprobe), "-v", "error", "-print_format", "json",
                 "-show_format", "-show_streams", "-o", str(out), str(path),
             ]
-            proc = subprocess.run(cmd, capture_output=True, text=True, timeout=120)
+            proc = subprocess.run(cmd, capture_output=True, text=True, timeout=120, stdin=subprocess.DEVNULL)
             if proc.returncode != 0:
                 raise ValidationError(f"can't read media {path.name}: {proc.stderr.strip()[:300]}")
             data = json.loads((out.read_text() if out.exists() else "") or "{}")
@@ -212,8 +212,9 @@ class MediaTool:
     def _run_ffmpeg(self, args: list[str], out: Path) -> None:
         out.parent.mkdir(parents=True, exist_ok=True)
         tmp = out.with_name(out.stem + ".part" + out.suffix)
-        cmd = [self._require(self.ffmpeg), "-hide_banner", "-loglevel", "error", "-y", *args, str(tmp)]
-        proc = subprocess.run(cmd, capture_output=True, text=True)
+        # -nostdin + DEVNULL: ffmpeg otherwise reads the terminal and swallows what a person types.
+        cmd = [self._require(self.ffmpeg), "-nostdin", "-hide_banner", "-loglevel", "error", "-y", *args, str(tmp)]
+        proc = subprocess.run(cmd, capture_output=True, text=True, stdin=subprocess.DEVNULL)
         if proc.returncode != 0:
             tmp.unlink(missing_ok=True)
             raise ValidationError(f"ffmpeg failed: {proc.stderr.strip()[-400:]}")

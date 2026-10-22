@@ -1,4 +1,4 @@
-"""One-time OAuth setup, designed for a headless box (the Switch) too:
+"""One-time OAuth setup, which also works on a headless machine:
 
     grokbot-publisher auth url x            # prints a link; open it anywhere
     grokbot-publisher auth finish x '<the URL you were redirected to>'
