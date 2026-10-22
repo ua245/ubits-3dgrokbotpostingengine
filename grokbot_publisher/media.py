@@ -20,6 +20,7 @@ import os
 import shutil
 import struct
 import subprocess
+import tempfile
 from dataclasses import dataclass, field
 from pathlib import Path
 
@@ -86,14 +87,18 @@ class MediaTool:
         return found
 
     def probe(self, path: Path) -> dict:
-        cmd = [
-            self._require(self.ffprobe), "-v", "error", "-print_format", "json",
-            "-show_format", "-show_streams", str(path),
-        ]
-        proc = subprocess.run(cmd, capture_output=True, text=True, timeout=120)
-        if proc.returncode != 0:
-            raise ValidationError(f"can't read media {path.name}: {proc.stderr.strip()[:300]}")
-        data = json.loads(proc.stdout or "{}")
+        # JSON goes to a file, not stdout: NVIDIA's L4T ffmpeg build (the Switch)
+        # prints "Opening in BLOCKING MODE" onto stdout, in the middle of the JSON.
+        with tempfile.TemporaryDirectory() as tmp:
+            out = Path(tmp) / "probe.json"
+            cmd = [
+                self._require(self.ffprobe), "-v", "error", "-print_format", "json",
+                "-show_format", "-show_streams", "-o", str(out), str(path),
+            ]
+            proc = subprocess.run(cmd, capture_output=True, text=True, timeout=120)
+            if proc.returncode != 0:
+                raise ValidationError(f"can't read media {path.name}: {proc.stderr.strip()[:300]}")
+            data = json.loads((out.read_text() if out.exists() else "") or "{}")
         streams = data.get("streams", [])
         video = next((s for s in streams if s.get("codec_type") == "video"), None)
         audio = next((s for s in streams if s.get("codec_type") == "audio"), None)
