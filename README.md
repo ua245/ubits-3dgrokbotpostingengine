@@ -13,6 +13,8 @@ watch /approved/ ─► safety gate ─► prepare per platform ─► post (off
 ```
 
 It runs on any laptop or server (Python 3.10+, ffmpeg, about 30 MB of dependencies, no boto3).
+MIT licensed. For Grok Bot: [`grokbot/SKILL.md`](grokbot/SKILL.md) runs the pipeline, and
+[`grokbot/community-context.md`](grokbot/community-context.md) is the briefing for judges and community leads.
 
 ## The pipeline
 
