@@ -1,0 +1,604 @@
+{
+  "file": "C:\\Users\\ua\\Documents\\grokbots_ubits_blender_mcp\\bit-crew-film.blend",
+  "render": {
+    "engine": "BLENDER_EEVEE",
+    "res": [
+      1920,
+      1080
+    ],
+    "fps": 24,
+    "frames": [
+      1,
+      276
+    ],
+    "filepath": "/home\\ua\\Desktop\\ubits-brand\\3d\\film\\frames\\f_",
+    "format": "PNG",
+    "camera": "Camera",
+    "eevee": {}
+  },
+  "focus": [
+    {
+      "name": "Camera",
+      "type": "CAMERA",
+      "loc": [
+        -4.300000190734863,
+        -5.400000095367432,
+        1.149999976158142
+      ],
+      "hide_render": false,
+      "action": {
+        "name": "CameraAction.004",
+        "fcurves": []
+      },
+      "constraints": [
+        {
+          "type": "TRACK_TO",
+          "name": "Track To",
+          "target": "Cam_Target"
+        }
+      ]
+    },
+    {
+      "name": "Camera_V",
+      "type": "CAMERA",
+      "loc": [
+        -3.5,
+        -4.900000095367432,
+        1.0
+      ],
+      "hide_render": false,
+      "action": {
+        "name": "Camera_VAction.002",
+        "fcurves": []
+      },
+      "constraints": [
+        {
+          "type": "TRACK_TO",
+          "name": "Track To",
+          "target": "Camera_V_Target"
+        }
+      ]
+    },
+    {
+      "name": "Camera_Loop",
+      "type": "CAMERA",
+      "loc": [
+        0.4000000059604645,
+        -11.300000190734863,
+        3.049999952316284
+      ],
+      "hide_render": false,
+      "action": {
+        "name": "Camera_LoopAction.002",
+        "fcurves": []
+      },
+      "constraints": [
+        {
+          "type": "TRACK_TO",
+          "name": "Track To",
+          "target": "Camera_Loop_Target"
+        }
+      ]
+    },
+    {
+      "name": "Cam_Target",
+      "type": "EMPTY",
+      "loc": [
+        -2.507197856903076,
+        -0.5071978569030762,
+        0.8509713411331177
+      ],
+      "hide_render": false,
+      "action": {
+        "name": "Cam_TargetAction.004",
+        "fcurves": []
+      },
+      "constraints": []
+    },
+    {
+      "name": "bit",
+      "type": "EMPTY",
+      "loc": [
+        -3.1500000953674316,
+        2.1500000953674316,
+        1.3450000286102295
+      ],
+      "hide_render": false,
+      "action": {
+        "name": "bitAction.004",
+        "fcurves": []
+      },
+      "constraints": []
+    },
+    {
+      "name": "bit-rocket",
+      "type": "EMPTY",
+      "loc": [
+        11.0,
+        -3.0,
+        8.800000190734863
+      ],
+      "hide_render": false,
+      "action": {
+        "name": "bit-rocketAction.004",
+        "fcurves": []
+      },
+      "constraints": []
+    },
+    {
+      "name": "bit-streak",
+      "type": "EMPTY",
+      "loc": [
+        -2.5999999046325684,
+        2.9000000953674316,
+        5.190000057220459
+      ],
+      "hide_render": false,
+      "action": {
+        "name": "bit-streakAction.004",
+        "fcurves": []
+      },
+      "constraints": []
+    },
+    {
+      "name": "Highlighter",
+      "type": "MESH",
+      "loc": [
+        -2.370903491973877,
+        3.1459999084472656,
+        3.140000104904175
+      ],
+      "hide_render": false,
+      "action": {
+        "name": "HighlighterAction.004",
+        "fcurves": []
+      },
+      "constraints": []
+    },
+    {
+      "name": "Roller",
+      "type": "MESH",
+      "loc": [
+        1.059999942779541,
+        0.9100000262260437,
+        1.7950000762939453
+      ],
+      "hide_render": false,
+      "action": {
+        "name": "RollerAction.004",
+        "fcurves": []
+      },
+      "constraints": []
+    },
+    {
+      "name": "Neon_ship_it",
+      "type": "FONT",
+      "loc": [
+        5.0,
+        3.119999885559082,
+        3.75
+      ],
+      "hide_render": false,
+      "constraints": []
+    }
+  ],
+  "chars": [
+    {
+      "name": "bit",
+      "loc": [
+        -3.15,
+        2.15,
+        1.345
+      ],
+      "children": [
+        "bit_bit",
+        "bit_body"
+      ],
+      "has_action": true
+    },
+    {
+      "name": "bit-coffee",
+      "loc": [
+        -2.5,
+        -1.0,
+        0.023
+      ],
+      "children": [
+        "bit-coffee_bit",
+        "bit-coffee_body"
+      ],
+      "has_action": true
+    },
+    {
+      "name": "bit-crown",
+      "loc": [
+        -0.95,
+        -0.55,
+        0.32
+      ],
+      "children": [
+        "bit-crown_bit",
+        "bit-crown_body"
+      ],
+      "has_action": true
+    },
+    {
+      "name": "bit-debug",
+      "loc": [
+        -1.55,
+        2.15,
+        1.345
+      ],
+      "children": [
+        "bit-debug_bit",
+        "bit-debug_body"
+      ],
+      "has_action": true
+    },
+    {
+      "name": "bit-headphones",
+      "loc": [
+        -0.336,
+        2.15,
+        1.378
+      ],
+      "children": [
+        "bit-headphones_bit",
+        "bit-headphones_body",
+        "Roller",
+        "Roller_arm",
+        "Roller_pole"
+      ],
+      "has_action": true
+    },
+    {
+      "name": "bit-heart",
+      "loc": [
+        0.75,
+        -1.15,
+        0.0
+      ],
+      "children": [
+        "bit-heart_bit",
+        "bit-heart_body"
+      ],
+      "has_action": true
+    },
+    {
+      "name": "bit-laptop",
+      "loc": [
+        -4.1,
+        -0.3,
+        0.0
+      ],
+      "children": [
+        "bit-laptop_bit",
+        "bit-laptop_body"
+      ],
+      "has_action": true
+    },
+    {
+      "name": "bit-rocket",
+      "loc": [
+        11.0,
+        -3.0,
+        8.8
+      ],
+      "children": [
+        "bit-rocket_body"
+      ],
+      "has_action": true
+    },
+    {
+      "name": "bit-shades",
+      "loc": [
+        2.35,
+        -0.6,
+        0.0
+      ],
+      "children": [
+        "bit-shades_bit",
+        "bit-shades_body"
+      ],
+      "has_action": true
+    },
+    {
+      "name": "bit-sleep",
+      "loc": [
+        3.85,
+        0.25,
+        0.0
+      ],
+      "children": [
+        "bit-sleep_bit",
+        "bit-sleep_body"
+      ],
+      "has_action": true
+    },
+    {
+      "name": "bit-streak",
+      "loc": [
+        -2.6,
+        2.9,
+        5.19
+      ],
+      "children": [
+        "bit-streak_bit",
+        "bit-streak_body"
+      ],
+      "has_action": true
+    },
+    {
+      "name": "bit-wave",
+      "loc": [
+        -0.3,
+        2.9,
+        5.19
+      ],
+      "children": [
+        "bit-wave_bit",
+        "bit-wave_body"
+      ],
+      "has_action": true
+    }
+  ],
+  "stickers": [
+    {
+      "name": "Sticker_bit",
+      "loc": [
+        5.05,
+        3.168,
+        2.45
+      ],
+      "scale": [
+        0.853,
+        0.95,
+        1.0
+      ],
+      "mats": [
+        "Sticker_11.004"
+      ],
+      "verts": 4
+    },
+    {
+      "name": "Sticker_bit-coffee",
+      "loc": [
+        -7.4,
+        3.19,
+        4.9
+      ],
+      "scale": [
+        1.192,
+        0.95,
+        1.0
+      ],
+      "mats": [
+        "Sticker_0.004"
+      ],
+      "verts": 4
+    },
+    {
+      "name": "Sticker_bit-crown",
+      "loc": [
+        -5.6,
+        3.188,
+        5.4
+      ],
+      "scale": [
+        1.082,
+        0.95,
+        1.0
+      ],
+      "mats": [
+        "Sticker_1.004"
+      ],
+      "verts": 4
+    },
+    {
+      "name": "Sticker_bit-debug",
+      "loc": [
+        -6.5,
+        3.186,
+        3.6
+      ],
+      "scale": [
+        1.042,
+        0.95,
+        1.0
+      ],
+      "mats": [
+        "Sticker_2.004"
+      ],
+      "verts": 4
+    },
+    {
+      "name": "Sticker_bit-headphones",
+      "loc": [
+        -4.95,
+        3.184,
+        3.9
+      ],
+      "scale": [
+        1.031,
+        0.95,
+        1.0
+      ],
+      "mats": [
+        "Sticker_3.004"
+      ],
+      "verts": 4
+    },
+    {
+      "name": "Sticker_bit-heart",
+      "loc": [
+        -7.2,
+        3.182,
+        2.1
+      ],
+      "scale": [
+        0.996,
+        0.95,
+        1.0
+      ],
+      "mats": [
+        "Sticker_4.004"
+      ],
+      "verts": 4
+    },
+    {
+      "name": "Sticker_bit-laptop",
+      "loc": [
+        -5.5,
+        3.18,
+        2.25
+      ],
+      "scale": [
+        0.908,
+        0.95,
+        1.0
+      ],
+      "mats": [
+        "Sticker_5.004"
+      ],
+      "verts": 4
+    },
+    {
+      "name": "Sticker_bit-rocket",
+      "loc": [
+        -6.3,
+        3.178,
+        0.85
+      ],
+      "scale": [
+        0.911,
+        0.95,
+        1.0
+      ],
+      "mats": [
+        "Sticker_6.004"
+      ],
+      "verts": 4
+    },
+    {
+      "name": "Sticker_bit-shades",
+      "loc": [
+        -4.9,
+        3.176,
+        0.95
+      ],
+      "scale": [
+        0.853,
+        0.95,
+        1.0
+      ],
+      "mats": [
+        "Sticker_7.004"
+      ],
+      "verts": 4
+    },
+    {
+      "name": "Sticker_bit-sleep",
+      "loc": [
+        5.0,
+        3.174,
+        5.35
+      ],
+      "scale": [
+        1.118,
+        0.95,
+        1.0
+      ],
+      "mats": [
+        "Sticker_8.004"
+      ],
+      "verts": 4
+    },
+    {
+      "name": "Sticker_bit-streak",
+      "loc": [
+        6.9,
+        3.172,
+        5.0
+      ],
+      "scale": [
+        0.74,
+        0.95,
+        1.0
+      ],
+      "mats": [
+        "Sticker_9.004"
+      ],
+      "verts": 4
+    },
+    {
+      "name": "Sticker_bit-wave",
+      "loc": [
+        7.6,
+        3.17,
+        2.55
+      ],
+      "scale": [
+        1.144,
+        0.95,
+        1.0
+      ],
+      "mats": [
+        "Sticker_10.004"
+      ],
+      "verts": 4
+    },
+    {
+      "name": "Sticker_text-ship-it",
+      "loc": [
+        5.55,
+        3.166,
+        1.55
+      ],
+      "scale": [
+        0.907,
+        0.3,
+        1.0
+      ],
+      "mats": [
+        "Sticker_12.004"
+      ],
+      "verts": 4
+    },
+    {
+      "name": "Sticker_text-shipping",
+      "loc": [
+        -6.6,
+        3.164,
+        0.45
+      ],
+      "scale": [
+        1.157,
+        0.3,
+        1.0
+      ],
+      "mats": [
+        "Sticker_13.004"
+      ],
+      "verts": 4
+    },
+    {
+      "name": "Sticker_text-works-on-my-machine",
+      "loc": [
+        6.45,
+        3.162,
+        0.6
+      ],
+      "scale": [
+        1.824,
+        0.3,
+        1.0
+      ],
+      "mats": [
+        "Sticker_14.004"
+      ],
+      "verts": 4
+    }
+  ],
+  "air_bits": 26,
+  "bulbs": 39
+}

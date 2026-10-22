@@ -1,0 +1,6123 @@
+{
+  "file": "C:\\Users\\ua\\Documents\\grokbots_ubits_blender_mcp\\bit-crew-film.blend",
+  "frame_start": 1,
+  "frame_end": 276,
+  "fps": 24,
+  "res": [
+    1920,
+    1080
+  ],
+  "engine": "BLENDER_EEVEE",
+  "filepath": "/home\\ua\\Desktop\\ubits-brand\\3d\\film\\frames\\f_",
+  "file_format": "PNG",
+  "camera": "Camera",
+  "markers": [],
+  "collections": [
+    {
+      "name": "Bit Crew",
+      "objects": [
+        "Floor",
+        "Wall",
+        "Poster",
+        "Poster_Header",
+        "Tape_0",
+        "Tape_1",
+        "Word_ubits",
+        "Word_tech",
+        "Mark_U",
+        "Mark_bit",
+        "Scaffold_Plank",
+        "Scaffold_Rail",
+        "Post_-3.7_-0.45",
+        "Post_-3.7_0.45",
+        "Post_rail_-3.7",
+        "Post_-1.2_-0.45",
+        "Post_-1.2_0.45",
+        "Post_rail_-1.2",
+        "Post_1.2_-0.45",
+        "Post_1.2_0.45",
+        "Post_rail_1.2",
+        "Post_3.7_-0.45",
+        "Post_3.7_0.45",
+        "Post_rail_3.7",
+        "Ladder_rung_0",
+        "Ladder_rung_1",
+        "Ladder_rung_2",
+        "Ladder_rung_3",
+        "Ladder_rung_4",
+        "Ladder_rail_-0.25",
+        "Ladder_rail_0.25",
+        "Crate_boss",
+        "Can_0",
+        "Can_rim_0",
+        "Can_1",
+        "Can_rim_1",
+        "Can_2",
+        "Can_rim_2",
+        "bit-wave",
+        "bit-wave_body",
+        "bit-wave_bit",
+        "bit-heart",
+        "bit-heart_body",
+        "bit-heart_bit",
+        "bit-headphones",
+        "bit-headphones_body",
+        "bit-headphones_bit",
+        "bit-shades",
+        "bit-shades_body",
+        "bit-shades_bit",
+        "bit-sleep",
+        "bit-sleep_body",
+        "bit-sleep_bit",
+        "bit-crown",
+        "bit-crown_body",
+        "bit-crown_bit",
+        "bit-laptop",
+        "bit-laptop_body",
+        "bit-laptop_bit",
+        "bit-coffee",
+        "bit-coffee_body",
+        "bit-coffee_bit",
+        "bit-debug",
+        "bit-debug_body",
+        "bit-debug_bit",
+        "bit-rocket",
+        "bit-rocket_body",
+        "bit-streak",
+        "bit-streak_body",
+        "bit-streak_bit",
+        "bit",
+        "bit_body",
+        "bit_bit",
+        "Dot_bit",
+        "Trail_0",
+        "Trail_1",
+        "Trail_2",
+        "Trail_3",
+        "Sun",
+        "Key",
+        "Fill",
+        "Cam_Target",
+        "Camera",
+        "Sticker_bit-coffee",
+        "Sticker_bit-crown",
+        "Sticker_bit-debug",
+        "Sticker_bit-headphones",
+        "Sticker_bit-heart",
+        "Sticker_bit-laptop",
+        "Sticker_bit-rocket",
+        "Sticker_bit-shades",
+        "Sticker_bit-sleep",
+        "Sticker_bit-streak",
+        "Sticker_bit-wave",
+        "Sticker_bit",
+        "Sticker_text-ship-it",
+        "Sticker_text-shipping",
+        "Sticker_text-works-on-my-machine",
+        "Neon_ship_it",
+        "Neon_glow",
+        "String_wire",
+        "Bulb_0",
+        "Bulb_1",
+        "Bulb_2",
+        "Bulb_3",
+        "Bulb_4",
+        "Bulb_5",
+        "Bulb_6",
+        "Bulb_7",
+        "Bulb_8",
+        "Bulb_9",
+        "Bulb_10",
+        "Bulb_11",
+        "Bulb_12",
+        "Bulb_13",
+        "Bulb_14",
+        "Bulb_15",
+        "Bulb_16",
+        "Bulb_17",
+        "Bulb_18",
+        "Bulb_19",
+        "Bulb_20",
+        "Bulb_21",
+        "Bulb_22",
+        "Bulb_23",
+        "Bulb_24",
+        "Bulb_25",
+        "Bulb_26",
+        "Bulb_27",
+        "Bulb_28",
+        "Bulb_29",
+        "Bulb_30",
+        "Bulb_31",
+        "Bulb_32",
+        "Bulb_33",
+        "Bulb_34",
+        "Bulb_35",
+        "Bulb_36",
+        "Bulb_37",
+        "Bulb_38",
+        "Spot_0",
+        "Spot_aim_0",
+        "Spot_1",
+        "Spot_aim_1",
+        "Rim",
+        "Highlighter",
+        "Roller_pole",
+        "Roller_arm",
+        "Roller",
+        "Camera_V",
+        "Camera_V_Target",
+        "Camera_Loop",
+        "Camera_Loop_Target",
+        "Air_bit_0",
+        "Air_bit_1",
+        "Air_bit_2",
+        "Air_bit_3",
+        "Air_bit_4",
+        "Air_bit_5",
+        "Air_bit_6",
+        "Air_bit_7",
+        "Air_bit_8",
+        "Air_bit_9",
+        "Air_bit_10",
+        "Air_bit_11",
+        "Air_bit_12",
+        "Air_bit_13",
+        "Air_bit_14",
+        "Air_bit_15",
+        "Air_bit_16",
+        "Air_bit_17",
+        "Air_bit_18",
+        "Air_bit_19",
+        "Air_bit_20",
+        "Air_bit_21",
+        "Air_bit_22",
+        "Air_bit_23",
+        "Air_bit_24",
+        "Air_bit_25"
+      ],
+      "children": []
+    }
+  ],
+  "objects": [
+    {
+      "name": "Air_bit_0",
+      "type": "MESH",
+      "loc": [
+        -0.185,
+        -6.402,
+        4.283
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "Air_bit_0Action.004",
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Peach"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Air_bit_1",
+      "type": "MESH",
+      "loc": [
+        0.548,
+        -2.374,
+        3.709
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "Air_bit_1Action.004",
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Rose"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Air_bit_10",
+      "type": "MESH",
+      "loc": [
+        0.976,
+        -1.828,
+        3.364
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "Air_bit_10Action.004",
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Rose"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Air_bit_11",
+      "type": "MESH",
+      "loc": [
+        -5.467,
+        -2.203,
+        3.732
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "Air_bit_11Action.004",
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Coral"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Air_bit_12",
+      "type": "MESH",
+      "loc": [
+        -0.949,
+        -7.775,
+        3.395
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "Air_bit_12Action.004",
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Peach"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Air_bit_13",
+      "type": "MESH",
+      "loc": [
+        -5.969,
+        -7.441,
+        0.838
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "Air_bit_13Action.004",
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Rose"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Air_bit_14",
+      "type": "MESH",
+      "loc": [
+        4.691,
+        -1.548,
+        2.628
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "Air_bit_14Action.004",
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Coral"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Air_bit_15",
+      "type": "MESH",
+      "loc": [
+        -1.691,
+        -6.647,
+        4.254
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "Air_bit_15Action.004",
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Peach"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Air_bit_16",
+      "type": "MESH",
+      "loc": [
+        -5.804,
+        -4.803,
+        4.659
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "Air_bit_16Action.004",
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Rose"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Air_bit_17",
+      "type": "MESH",
+      "loc": [
+        -1.563,
+        -7.331,
+        3.685
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "Air_bit_17Action.004",
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Coral"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Air_bit_18",
+      "type": "MESH",
+      "loc": [
+        -3.351,
+        -2.819,
+        4.702
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "Air_bit_18Action.004",
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Peach"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Air_bit_19",
+      "type": "MESH",
+      "loc": [
+        -1.406,
+        -8.297,
+        0.679
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "Air_bit_19Action.004",
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Rose"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Air_bit_2",
+      "type": "MESH",
+      "loc": [
+        -0.733,
+        -3.2,
+        1.093
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "Air_bit_2Action.004",
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Coral"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Air_bit_20",
+      "type": "MESH",
+      "loc": [
+        5.917,
+        -5.369,
+        4.648
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "Air_bit_20Action.004",
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Coral"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Air_bit_21",
+      "type": "MESH",
+      "loc": [
+        -3.43,
+        -4.132,
+        4.545
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "Air_bit_21Action.004",
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Peach"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Air_bit_22",
+      "type": "MESH",
+      "loc": [
+        3.849,
+        -7.907,
+        3.165
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "Air_bit_22Action.004",
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Rose"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Air_bit_23",
+      "type": "MESH",
+      "loc": [
+        -0.166,
+        -7.25,
+        3.78
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "Air_bit_23Action.004",
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Coral"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Air_bit_24",
+      "type": "MESH",
+      "loc": [
+        -0.92,
+        -5.69,
+        4.974
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "Air_bit_24Action.004",
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Peach"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Air_bit_25",
+      "type": "MESH",
+      "loc": [
+        -4.242,
+        -2.166,
+        3.88
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "Air_bit_25Action.004",
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Rose"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Air_bit_3",
+      "type": "MESH",
+      "loc": [
+        3.415,
+        -4.489,
+        4.174
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "Air_bit_3Action.004",
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Peach"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Air_bit_4",
+      "type": "MESH",
+      "loc": [
+        5.664,
+        -5.181,
+        3.178
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "Air_bit_4Action.004",
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Rose"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Air_bit_5",
+      "type": "MESH",
+      "loc": [
+        6.282,
+        -2.747,
+        1.415
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "Air_bit_5Action.004",
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Coral"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Air_bit_6",
+      "type": "MESH",
+      "loc": [
+        -5.171,
+        -3.122,
+        1.049
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "Air_bit_6Action.004",
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Peach"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Air_bit_7",
+      "type": "MESH",
+      "loc": [
+        -5.127,
+        -5.356,
+        2.665
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "Air_bit_7Action.004",
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Rose"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Air_bit_8",
+      "type": "MESH",
+      "loc": [
+        5.202,
+        -1.796,
+        1.259
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "Air_bit_8Action.004",
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Coral"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Air_bit_9",
+      "type": "MESH",
+      "loc": [
+        0.133,
+        -4.376,
+        1.644
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "Air_bit_9Action.004",
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Peach"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "bit",
+      "type": "EMPTY",
+      "loc": [
+        -3.15,
+        2.15,
+        1.345
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "bitAction.004",
+      "mods": [],
+      "mats": [],
+      "hide_render": false
+    },
+    {
+      "name": "bit-coffee",
+      "type": "EMPTY",
+      "loc": [
+        -2.5,
+        -1.0,
+        0.023
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "bit-coffeeAction.004",
+      "mods": [],
+      "mats": [],
+      "hide_render": false
+    },
+    {
+      "name": "bit-coffee_bit",
+      "type": "MESH",
+      "loc": [
+        0.4,
+        0.0,
+        1.393
+      ],
+      "parent": "bit-coffee",
+      "animated": true,
+      "action": "bit-coffee_bitAction.004",
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Bit_q",
+        "Bit_Q"
+      ],
+      "hide_render": false,
+      "verts": 56,
+      "polys": 54
+    },
+    {
+      "name": "bit-coffee_body",
+      "type": "MESH",
+      "loc": [
+        -1.45,
+        -0.4,
+        0.0
+      ],
+      "parent": "bit-coffee",
+      "animated": false,
+      "action": null,
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Bit_R",
+        "Bit_b",
+        "Bit_c",
+        "Bit_e",
+        "Bit_h",
+        "Bit_k",
+        "Bit_m",
+        "Bit_s",
+        "Bit_w"
+      ],
+      "hide_render": false,
+      "verts": 864,
+      "polys": 862
+    },
+    {
+      "name": "bit-crown",
+      "type": "EMPTY",
+      "loc": [
+        -0.95,
+        -0.55,
+        0.32
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "bit-crownAction.004",
+      "mods": [],
+      "mats": [],
+      "hide_render": false
+    },
+    {
+      "name": "bit-crown_bit",
+      "type": "MESH",
+      "loc": [
+        1.0,
+        0.0,
+        1.508
+      ],
+      "parent": "bit-crown",
+      "animated": true,
+      "action": "bit-crown_bitAction.004",
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Bit_q",
+        "Bit_Q"
+      ],
+      "hide_render": false,
+      "verts": 56,
+      "polys": 54
+    },
+    {
+      "name": "bit-crown_body",
+      "type": "MESH",
+      "loc": [
+        -1.45,
+        -0.4,
+        0.0
+      ],
+      "parent": "bit-crown",
+      "animated": false,
+      "action": null,
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Bit_G",
+        "Bit_R",
+        "Bit_b",
+        "Bit_e",
+        "Bit_h",
+        "Bit_p",
+        "Bit_s",
+        "Bit_w"
+      ],
+      "hide_render": false,
+      "verts": 822,
+      "polys": 820
+    },
+    {
+      "name": "bit-debug",
+      "type": "EMPTY",
+      "loc": [
+        -1.55,
+        2.15,
+        1.345
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "bit-debugAction.004",
+      "mods": [],
+      "mats": [],
+      "hide_render": false
+    },
+    {
+      "name": "bit-debug_bit",
+      "type": "MESH",
+      "loc": [
+        0.4,
+        0.0,
+        1.398
+      ],
+      "parent": "bit-debug",
+      "animated": true,
+      "action": "bit-debug_bitAction.004",
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Bit_q",
+        "Bit_Q"
+      ],
+      "hide_render": false,
+      "verts": 56,
+      "polys": 54
+    },
+    {
+      "name": "bit-debug_body",
+      "type": "MESH",
+      "loc": [
+        -1.45,
+        -0.4,
+        0.0
+      ],
+      "parent": "bit-debug",
+      "animated": false,
+      "action": null,
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Bit_R",
+        "Bit_b",
+        "Bit_c",
+        "Bit_e",
+        "Bit_h",
+        "Bit_k",
+        "Bit_l",
+        "Bit_s"
+      ],
+      "hide_render": false,
+      "verts": 808,
+      "polys": 810
+    },
+    {
+      "name": "bit-headphones",
+      "type": "EMPTY",
+      "loc": [
+        -0.336,
+        2.15,
+        1.378
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "bit-headphonesAction.004",
+      "mods": [],
+      "mats": [],
+      "hide_render": false
+    },
+    {
+      "name": "bit-headphones_bit",
+      "type": "MESH",
+      "loc": [
+        1.1,
+        0.0,
+        1.719
+      ],
+      "parent": "bit-headphones",
+      "animated": true,
+      "action": "bit-headphones_bitAction.004",
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Bit_q",
+        "Bit_Q"
+      ],
+      "hide_render": false,
+      "verts": 56,
+      "polys": 54
+    },
+    {
+      "name": "bit-headphones_body",
+      "type": "MESH",
+      "loc": [
+        -1.45,
+        -0.4,
+        0.0
+      ],
+      "parent": "bit-headphones",
+      "animated": false,
+      "action": null,
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Bit_b",
+        "Bit_e",
+        "Bit_h",
+        "Bit_k",
+        "Bit_r",
+        "Bit_s"
+      ],
+      "hide_render": false,
+      "verts": 997,
+      "polys": 1002
+    },
+    {
+      "name": "bit-heart",
+      "type": "EMPTY",
+      "loc": [
+        0.75,
+        -1.15,
+        0.0
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "bit-heartAction.004",
+      "mods": [],
+      "mats": [],
+      "hide_render": false
+    },
+    {
+      "name": "bit-heart_bit",
+      "type": "MESH",
+      "loc": [
+        0.4,
+        0.0,
+        1.307
+      ],
+      "parent": "bit-heart",
+      "animated": true,
+      "action": "bit-heart_bitAction.004",
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Bit_q",
+        "Bit_Q"
+      ],
+      "hide_render": false,
+      "verts": 56,
+      "polys": 54
+    },
+    {
+      "name": "bit-heart_body",
+      "type": "MESH",
+      "loc": [
+        -1.45,
+        -0.4,
+        0.0
+      ],
+      "parent": "bit-heart",
+      "animated": false,
+      "action": null,
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Bit_R",
+        "Bit_b",
+        "Bit_e",
+        "Bit_h",
+        "Bit_s",
+        "Bit_w"
+      ],
+      "hide_render": false,
+      "verts": 775,
+      "polys": 774
+    },
+    {
+      "name": "bit-laptop",
+      "type": "EMPTY",
+      "loc": [
+        -4.1,
+        -0.3,
+        0.0
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "bit-laptopAction.004",
+      "mods": [],
+      "mats": [],
+      "hide_render": false
+    },
+    {
+      "name": "bit-laptop_bit",
+      "type": "MESH",
+      "loc": [
+        0.4,
+        0.0,
+        1.68
+      ],
+      "parent": "bit-laptop",
+      "animated": true,
+      "action": "bit-laptop_bitAction.004",
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Bit_q",
+        "Bit_Q"
+      ],
+      "hide_render": false,
+      "verts": 56,
+      "polys": 54
+    },
+    {
+      "name": "bit-laptop_body",
+      "type": "MESH",
+      "loc": [
+        -1.45,
+        -0.4,
+        0.0
+      ],
+      "parent": "bit-laptop",
+      "animated": false,
+      "action": null,
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Bit_Q",
+        "Bit_b",
+        "Bit_c",
+        "Bit_e",
+        "Bit_h",
+        "Bit_k",
+        "Bit_m",
+        "Bit_q",
+        "Bit_s"
+      ],
+      "hide_render": false,
+      "verts": 1376,
+      "polys": 1376
+    },
+    {
+      "name": "bit-rocket",
+      "type": "EMPTY",
+      "loc": [
+        11.0,
+        -3.0,
+        8.8
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "bit-rocketAction.004",
+      "mods": [],
+      "mats": [],
+      "hide_render": false
+    },
+    {
+      "name": "bit-rocket_body",
+      "type": "MESH",
+      "loc": [
+        -1.45,
+        -0.4,
+        0.0
+      ],
+      "parent": "bit-rocket",
+      "animated": false,
+      "action": null,
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Bit_b",
+        "Bit_e",
+        "Bit_h",
+        "Bit_k",
+        "Bit_l",
+        "Bit_o",
+        "Bit_r",
+        "Bit_s",
+        "Bit_w",
+        "Bit_y"
+      ],
+      "hide_render": false,
+      "verts": 931,
+      "polys": 932
+    },
+    {
+      "name": "bit-shades",
+      "type": "EMPTY",
+      "loc": [
+        2.35,
+        -0.6,
+        0.0
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "bit-shadesAction.004",
+      "mods": [],
+      "mats": [],
+      "hide_render": false
+    },
+    {
+      "name": "bit-shades_bit",
+      "type": "MESH",
+      "loc": [
+        0.4,
+        0.0,
+        1.328
+      ],
+      "parent": "bit-shades",
+      "animated": true,
+      "action": "bit-shades_bitAction.004",
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Bit_q",
+        "Bit_Q"
+      ],
+      "hide_render": false,
+      "verts": 56,
+      "polys": 54
+    },
+    {
+      "name": "bit-shades_body",
+      "type": "MESH",
+      "loc": [
+        -1.45,
+        -0.4,
+        0.0
+      ],
+      "parent": "bit-shades",
+      "animated": false,
+      "action": null,
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Bit_b",
+        "Bit_e",
+        "Bit_h",
+        "Bit_s",
+        "Bit_w"
+      ],
+      "hide_render": false,
+      "verts": 720,
+      "polys": 718
+    },
+    {
+      "name": "bit-sleep",
+      "type": "EMPTY",
+      "loc": [
+        3.85,
+        0.25,
+        0.0
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "bit-sleepAction.004",
+      "mods": [],
+      "mats": [],
+      "hide_render": false
+    },
+    {
+      "name": "bit-sleep_bit",
+      "type": "MESH",
+      "loc": [
+        0.7,
+        0.0,
+        1.576
+      ],
+      "parent": "bit-sleep",
+      "animated": true,
+      "action": "bit-sleep_bitAction.004",
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Bit_q",
+        "Bit_Q"
+      ],
+      "hide_render": false,
+      "verts": 56,
+      "polys": 54
+    },
+    {
+      "name": "bit-sleep_body",
+      "type": "MESH",
+      "loc": [
+        -1.45,
+        -0.4,
+        0.0
+      ],
+      "parent": "bit-sleep",
+      "animated": false,
+      "action": null,
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Bit_b",
+        "Bit_e",
+        "Bit_h",
+        "Bit_s"
+      ],
+      "hide_render": false,
+      "verts": 843,
+      "polys": 840
+    },
+    {
+      "name": "bit-streak",
+      "type": "EMPTY",
+      "loc": [
+        -2.6,
+        2.9,
+        5.19
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "bit-streakAction.004",
+      "mods": [],
+      "mats": [],
+      "hide_render": false
+    },
+    {
+      "name": "bit-streak_bit",
+      "type": "MESH",
+      "loc": [
+        0.4,
+        0.0,
+        1.375
+      ],
+      "parent": "bit-streak",
+      "animated": true,
+      "action": "bit-streak_bitAction.004",
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Bit_q",
+        "Bit_Q"
+      ],
+      "hide_render": false,
+      "verts": 56,
+      "polys": 54
+    },
+    {
+      "name": "bit-streak_body",
+      "type": "MESH",
+      "loc": [
+        -1.45,
+        -0.4,
+        0.0
+      ],
+      "parent": "bit-streak",
+      "animated": false,
+      "action": null,
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Bit_b",
+        "Bit_e",
+        "Bit_h",
+        "Bit_o",
+        "Bit_r",
+        "Bit_s",
+        "Bit_y"
+      ],
+      "hide_render": false,
+      "verts": 827,
+      "polys": 828
+    },
+    {
+      "name": "bit-wave",
+      "type": "EMPTY",
+      "loc": [
+        -0.3,
+        2.9,
+        5.19
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "bit-waveAction.004",
+      "mods": [],
+      "mats": [],
+      "hide_render": false
+    },
+    {
+      "name": "bit-wave_bit",
+      "type": "MESH",
+      "loc": [
+        0.4,
+        0.0,
+        1.4
+      ],
+      "parent": "bit-wave",
+      "animated": true,
+      "action": "bit-wave_bitAction.004",
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Bit_q",
+        "Bit_Q"
+      ],
+      "hide_render": false,
+      "verts": 56,
+      "polys": 54
+    },
+    {
+      "name": "bit-wave_body",
+      "type": "MESH",
+      "loc": [
+        -1.45,
+        -0.4,
+        0.0
+      ],
+      "parent": "bit-wave",
+      "animated": false,
+      "action": null,
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Bit_b",
+        "Bit_e",
+        "Bit_h",
+        "Bit_s"
+      ],
+      "hide_render": false,
+      "verts": 812,
+      "polys": 804
+    },
+    {
+      "name": "bit_bit",
+      "type": "MESH",
+      "loc": [
+        0.4,
+        0.0,
+        1.302
+      ],
+      "parent": "bit",
+      "animated": true,
+      "action": "bit_bitAction.004",
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Bit_q",
+        "Bit_Q"
+      ],
+      "hide_render": false,
+      "verts": 56,
+      "polys": 54
+    },
+    {
+      "name": "bit_body",
+      "type": "MESH",
+      "loc": [
+        -1.45,
+        -0.4,
+        0.0
+      ],
+      "parent": "bit",
+      "animated": false,
+      "action": null,
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Bit_b",
+        "Bit_e",
+        "Bit_h",
+        "Bit_s"
+      ],
+      "hide_render": false,
+      "verts": 684,
+      "polys": 682
+    },
+    {
+      "name": "Bulb_0",
+      "type": "MESH",
+      "loc": [
+        -8.075,
+        2.75,
+        6.607
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Bulb"
+      ],
+      "hide_render": false,
+      "verts": 24,
+      "polys": 14
+    },
+    {
+      "name": "Bulb_1",
+      "type": "MESH",
+      "loc": [
+        -7.65,
+        2.75,
+        6.537
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Bulb"
+      ],
+      "hide_render": false,
+      "verts": 24,
+      "polys": 14
+    },
+    {
+      "name": "Bulb_10",
+      "type": "MESH",
+      "loc": [
+        -3.825,
+        2.75,
+        6.082
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Bulb"
+      ],
+      "hide_render": false,
+      "verts": 24,
+      "polys": 14
+    },
+    {
+      "name": "Bulb_11",
+      "type": "MESH",
+      "loc": [
+        -3.4,
+        2.75,
+        6.05
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Bulb"
+      ],
+      "hide_render": false,
+      "verts": 24,
+      "polys": 14
+    },
+    {
+      "name": "Bulb_12",
+      "type": "MESH",
+      "loc": [
+        -2.975,
+        2.75,
+        6.022
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Bulb"
+      ],
+      "hide_render": false,
+      "verts": 24,
+      "polys": 14
+    },
+    {
+      "name": "Bulb_13",
+      "type": "MESH",
+      "loc": [
+        -2.55,
+        2.75,
+        5.997
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Bulb"
+      ],
+      "hide_render": false,
+      "verts": 24,
+      "polys": 14
+    },
+    {
+      "name": "Bulb_14",
+      "type": "MESH",
+      "loc": [
+        -2.125,
+        2.75,
+        5.977
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Bulb"
+      ],
+      "hide_render": false,
+      "verts": 24,
+      "polys": 14
+    },
+    {
+      "name": "Bulb_15",
+      "type": "MESH",
+      "loc": [
+        -1.7,
+        2.75,
+        5.96
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Bulb"
+      ],
+      "hide_render": false,
+      "verts": 24,
+      "polys": 14
+    },
+    {
+      "name": "Bulb_16",
+      "type": "MESH",
+      "loc": [
+        -1.275,
+        2.75,
+        5.947
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Bulb"
+      ],
+      "hide_render": false,
+      "verts": 24,
+      "polys": 14
+    },
+    {
+      "name": "Bulb_17",
+      "type": "MESH",
+      "loc": [
+        -0.85,
+        2.75,
+        5.938
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Bulb"
+      ],
+      "hide_render": false,
+      "verts": 24,
+      "polys": 14
+    },
+    {
+      "name": "Bulb_18",
+      "type": "MESH",
+      "loc": [
+        -0.425,
+        2.75,
+        5.932
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Bulb"
+      ],
+      "hide_render": false,
+      "verts": 24,
+      "polys": 14
+    },
+    {
+      "name": "Bulb_19",
+      "type": "MESH",
+      "loc": [
+        0.0,
+        2.75,
+        5.93
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Bulb"
+      ],
+      "hide_render": false,
+      "verts": 24,
+      "polys": 14
+    },
+    {
+      "name": "Bulb_2",
+      "type": "MESH",
+      "loc": [
+        -7.225,
+        2.75,
+        6.472
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Bulb"
+      ],
+      "hide_render": false,
+      "verts": 24,
+      "polys": 14
+    },
+    {
+      "name": "Bulb_20",
+      "type": "MESH",
+      "loc": [
+        0.425,
+        2.75,
+        5.932
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Bulb"
+      ],
+      "hide_render": false,
+      "verts": 24,
+      "polys": 14
+    },
+    {
+      "name": "Bulb_21",
+      "type": "MESH",
+      "loc": [
+        0.85,
+        2.75,
+        5.938
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Bulb"
+      ],
+      "hide_render": false,
+      "verts": 24,
+      "polys": 14
+    },
+    {
+      "name": "Bulb_22",
+      "type": "MESH",
+      "loc": [
+        1.275,
+        2.75,
+        5.947
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Bulb"
+      ],
+      "hide_render": false,
+      "verts": 24,
+      "polys": 14
+    },
+    {
+      "name": "Bulb_23",
+      "type": "MESH",
+      "loc": [
+        1.7,
+        2.75,
+        5.96
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Bulb"
+      ],
+      "hide_render": false,
+      "verts": 24,
+      "polys": 14
+    },
+    {
+      "name": "Bulb_24",
+      "type": "MESH",
+      "loc": [
+        2.125,
+        2.75,
+        5.977
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Bulb"
+      ],
+      "hide_render": false,
+      "verts": 24,
+      "polys": 14
+    },
+    {
+      "name": "Bulb_25",
+      "type": "MESH",
+      "loc": [
+        2.55,
+        2.75,
+        5.997
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Bulb"
+      ],
+      "hide_render": false,
+      "verts": 24,
+      "polys": 14
+    },
+    {
+      "name": "Bulb_26",
+      "type": "MESH",
+      "loc": [
+        2.975,
+        2.75,
+        6.022
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Bulb"
+      ],
+      "hide_render": false,
+      "verts": 24,
+      "polys": 14
+    },
+    {
+      "name": "Bulb_27",
+      "type": "MESH",
+      "loc": [
+        3.4,
+        2.75,
+        6.05
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Bulb"
+      ],
+      "hide_render": false,
+      "verts": 24,
+      "polys": 14
+    },
+    {
+      "name": "Bulb_28",
+      "type": "MESH",
+      "loc": [
+        3.825,
+        2.75,
+        6.082
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Bulb"
+      ],
+      "hide_render": false,
+      "verts": 24,
+      "polys": 14
+    },
+    {
+      "name": "Bulb_29",
+      "type": "MESH",
+      "loc": [
+        4.25,
+        2.75,
+        6.117
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Bulb"
+      ],
+      "hide_render": false,
+      "verts": 24,
+      "polys": 14
+    },
+    {
+      "name": "Bulb_3",
+      "type": "MESH",
+      "loc": [
+        -6.8,
+        2.75,
+        6.41
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Bulb"
+      ],
+      "hide_render": false,
+      "verts": 24,
+      "polys": 14
+    },
+    {
+      "name": "Bulb_30",
+      "type": "MESH",
+      "loc": [
+        4.675,
+        2.75,
+        6.157
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Bulb"
+      ],
+      "hide_render": false,
+      "verts": 24,
+      "polys": 14
+    },
+    {
+      "name": "Bulb_31",
+      "type": "MESH",
+      "loc": [
+        5.1,
+        2.75,
+        6.2
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Bulb"
+      ],
+      "hide_render": false,
+      "verts": 24,
+      "polys": 14
+    },
+    {
+      "name": "Bulb_32",
+      "type": "MESH",
+      "loc": [
+        5.525,
+        2.75,
+        6.247
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Bulb"
+      ],
+      "hide_render": false,
+      "verts": 24,
+      "polys": 14
+    },
+    {
+      "name": "Bulb_33",
+      "type": "MESH",
+      "loc": [
+        5.95,
+        2.75,
+        6.298
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Bulb"
+      ],
+      "hide_render": false,
+      "verts": 24,
+      "polys": 14
+    },
+    {
+      "name": "Bulb_34",
+      "type": "MESH",
+      "loc": [
+        6.375,
+        2.75,
+        6.352
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Bulb"
+      ],
+      "hide_render": false,
+      "verts": 24,
+      "polys": 14
+    },
+    {
+      "name": "Bulb_35",
+      "type": "MESH",
+      "loc": [
+        6.8,
+        2.75,
+        6.41
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Bulb"
+      ],
+      "hide_render": false,
+      "verts": 24,
+      "polys": 14
+    },
+    {
+      "name": "Bulb_36",
+      "type": "MESH",
+      "loc": [
+        7.225,
+        2.75,
+        6.472
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Bulb"
+      ],
+      "hide_render": false,
+      "verts": 24,
+      "polys": 14
+    },
+    {
+      "name": "Bulb_37",
+      "type": "MESH",
+      "loc": [
+        7.65,
+        2.75,
+        6.537
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Bulb"
+      ],
+      "hide_render": false,
+      "verts": 24,
+      "polys": 14
+    },
+    {
+      "name": "Bulb_38",
+      "type": "MESH",
+      "loc": [
+        8.075,
+        2.75,
+        6.607
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Bulb"
+      ],
+      "hide_render": false,
+      "verts": 24,
+      "polys": 14
+    },
+    {
+      "name": "Bulb_4",
+      "type": "MESH",
+      "loc": [
+        -6.375,
+        2.75,
+        6.352
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Bulb"
+      ],
+      "hide_render": false,
+      "verts": 24,
+      "polys": 14
+    },
+    {
+      "name": "Bulb_5",
+      "type": "MESH",
+      "loc": [
+        -5.95,
+        2.75,
+        6.298
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Bulb"
+      ],
+      "hide_render": false,
+      "verts": 24,
+      "polys": 14
+    },
+    {
+      "name": "Bulb_6",
+      "type": "MESH",
+      "loc": [
+        -5.525,
+        2.75,
+        6.247
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Bulb"
+      ],
+      "hide_render": false,
+      "verts": 24,
+      "polys": 14
+    },
+    {
+      "name": "Bulb_7",
+      "type": "MESH",
+      "loc": [
+        -5.1,
+        2.75,
+        6.2
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Bulb"
+      ],
+      "hide_render": false,
+      "verts": 24,
+      "polys": 14
+    },
+    {
+      "name": "Bulb_8",
+      "type": "MESH",
+      "loc": [
+        -4.675,
+        2.75,
+        6.157
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Bulb"
+      ],
+      "hide_render": false,
+      "verts": 24,
+      "polys": 14
+    },
+    {
+      "name": "Bulb_9",
+      "type": "MESH",
+      "loc": [
+        -4.25,
+        2.75,
+        6.117
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Bulb"
+      ],
+      "hide_render": false,
+      "verts": 24,
+      "polys": 14
+    },
+    {
+      "name": "Cam_Target",
+      "type": "EMPTY",
+      "loc": [
+        -2.507,
+        -0.507,
+        0.851
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "Cam_TargetAction.004",
+      "mods": [],
+      "mats": [],
+      "hide_render": false
+    },
+    {
+      "name": "Camera",
+      "type": "CAMERA",
+      "loc": [
+        -4.3,
+        -5.4,
+        1.15
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "CameraAction.004",
+      "mods": [],
+      "mats": [],
+      "hide_render": false,
+      "lens": 30.0
+    },
+    {
+      "name": "Camera_Loop",
+      "type": "CAMERA",
+      "loc": [
+        0.4,
+        -11.3,
+        3.05
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "Camera_LoopAction.002",
+      "mods": [],
+      "mats": [],
+      "hide_render": false,
+      "lens": 31.0
+    },
+    {
+      "name": "Camera_Loop_Target",
+      "type": "EMPTY",
+      "loc": [
+        0.25,
+        1.5,
+        2.6
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "Camera_Loop_TargetAction.001",
+      "mods": [],
+      "mats": [],
+      "hide_render": false
+    },
+    {
+      "name": "Camera_V",
+      "type": "CAMERA",
+      "loc": [
+        -3.5,
+        -4.9,
+        1.0
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "Camera_VAction.002",
+      "mods": [],
+      "mats": [],
+      "hide_render": false,
+      "lens": 24.0
+    },
+    {
+      "name": "Camera_V_Target",
+      "type": "EMPTY",
+      "loc": [
+        -2.607,
+        -0.507,
+        0.951
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "Camera_V_TargetAction.001",
+      "mods": [],
+      "mats": [],
+      "hide_render": false
+    },
+    {
+      "name": "Can_0",
+      "type": "MESH",
+      "loc": [
+        4.9,
+        0.2,
+        0.19
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Rose"
+      ],
+      "hide_render": false,
+      "verts": 64,
+      "polys": 34
+    },
+    {
+      "name": "Can_1",
+      "type": "MESH",
+      "loc": [
+        5.35,
+        -0.45,
+        0.19
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Peach"
+      ],
+      "hide_render": false,
+      "verts": 64,
+      "polys": 34
+    },
+    {
+      "name": "Can_2",
+      "type": "MESH",
+      "loc": [
+        4.55,
+        -0.75,
+        0.19
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Coral"
+      ],
+      "hide_render": false,
+      "verts": 64,
+      "polys": 34
+    },
+    {
+      "name": "Can_rim_0",
+      "type": "MESH",
+      "loc": [
+        4.9,
+        0.2,
+        0.385
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Ink"
+      ],
+      "hide_render": false,
+      "verts": 64,
+      "polys": 34
+    },
+    {
+      "name": "Can_rim_1",
+      "type": "MESH",
+      "loc": [
+        5.35,
+        -0.45,
+        0.385
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Ink"
+      ],
+      "hide_render": false,
+      "verts": 64,
+      "polys": 34
+    },
+    {
+      "name": "Can_rim_2",
+      "type": "MESH",
+      "loc": [
+        4.55,
+        -0.75,
+        0.385
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Ink"
+      ],
+      "hide_render": false,
+      "verts": 64,
+      "polys": 34
+    },
+    {
+      "name": "Crate_boss",
+      "type": "MESH",
+      "loc": [
+        -0.95,
+        -0.55,
+        0.16
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Crate"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Dot_bit",
+      "type": "MESH",
+      "loc": [
+        10.15,
+        -3.35,
+        8.55
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "Dot_bitAction.004",
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Rose"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Fill",
+      "type": "LIGHT",
+      "loc": [
+        6.0,
+        -7.0,
+        3.0
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [],
+      "hide_render": false,
+      "light": "AREA",
+      "energy": 90.0
+    },
+    {
+      "name": "Floor",
+      "type": "MESH",
+      "loc": [
+        0.0,
+        0.0,
+        -0.01
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Studio_Floor"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Highlighter",
+      "type": "MESH",
+      "loc": [
+        -2.371,
+        3.146,
+        3.14
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "HighlighterAction.004",
+      "mods": [],
+      "mats": [
+        "Highlighter"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Key",
+      "type": "LIGHT",
+      "loc": [
+        -5.0,
+        -6.0,
+        6.0
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [],
+      "hide_render": false,
+      "light": "AREA",
+      "energy": 520.0
+    },
+    {
+      "name": "Ladder_rail_-0.25",
+      "type": "MESH",
+      "loc": [
+        -4.4,
+        1.6,
+        0.85
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Ink"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Ladder_rail_0.25",
+      "type": "MESH",
+      "loc": [
+        -3.9,
+        1.6,
+        0.85
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Ink"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Ladder_rung_0",
+      "type": "MESH",
+      "loc": [
+        -4.15,
+        1.6,
+        0.25
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Ink"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Ladder_rung_1",
+      "type": "MESH",
+      "loc": [
+        -4.15,
+        1.6,
+        0.51
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Ink"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Ladder_rung_2",
+      "type": "MESH",
+      "loc": [
+        -4.15,
+        1.6,
+        0.77
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Ink"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Ladder_rung_3",
+      "type": "MESH",
+      "loc": [
+        -4.15,
+        1.6,
+        1.03
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Ink"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Ladder_rung_4",
+      "type": "MESH",
+      "loc": [
+        -4.15,
+        1.6,
+        1.29
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Ink"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Mark_bit",
+      "type": "MESH",
+      "loc": [
+        -3.19,
+        3.148,
+        3.56
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Rose"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Mark_U",
+      "type": "MESH",
+      "loc": [
+        -3.19,
+        3.148,
+        3.56
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Mark_Gradient"
+      ],
+      "hide_render": false,
+      "verts": 140,
+      "polys": 72
+    },
+    {
+      "name": "Neon_glow",
+      "type": "LIGHT",
+      "loc": [
+        5.7,
+        2.6,
+        4.0
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [],
+      "hide_render": false,
+      "light": "AREA",
+      "energy": 120.0
+    },
+    {
+      "name": "Neon_ship_it",
+      "type": "FONT",
+      "loc": [
+        5.0,
+        3.12,
+        3.75
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Neon"
+      ],
+      "hide_render": false,
+      "body": "ship it."
+    },
+    {
+      "name": "Post_-1.2_-0.45",
+      "type": "MESH",
+      "loc": [
+        -1.2,
+        1.7,
+        0.65
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Ink"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Post_-1.2_0.45",
+      "type": "MESH",
+      "loc": [
+        -1.2,
+        2.6,
+        0.65
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Ink"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Post_-3.7_-0.45",
+      "type": "MESH",
+      "loc": [
+        -3.7,
+        1.7,
+        0.65
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Ink"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Post_-3.7_0.45",
+      "type": "MESH",
+      "loc": [
+        -3.7,
+        2.6,
+        0.65
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Ink"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Post_1.2_-0.45",
+      "type": "MESH",
+      "loc": [
+        1.2,
+        1.7,
+        0.65
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Ink"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Post_1.2_0.45",
+      "type": "MESH",
+      "loc": [
+        1.2,
+        2.6,
+        0.65
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Ink"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Post_3.7_-0.45",
+      "type": "MESH",
+      "loc": [
+        3.7,
+        1.7,
+        0.65
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Ink"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Post_3.7_0.45",
+      "type": "MESH",
+      "loc": [
+        3.7,
+        2.6,
+        0.65
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Ink"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Post_rail_-1.2",
+      "type": "MESH",
+      "loc": [
+        -1.2,
+        2.63,
+        1.75
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Ink"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Post_rail_-3.7",
+      "type": "MESH",
+      "loc": [
+        -3.7,
+        2.63,
+        1.75
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Ink"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Post_rail_1.2",
+      "type": "MESH",
+      "loc": [
+        1.2,
+        2.63,
+        1.75
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Ink"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Post_rail_3.7",
+      "type": "MESH",
+      "loc": [
+        3.7,
+        2.63,
+        1.75
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Ink"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Poster",
+      "type": "MESH",
+      "loc": [
+        0.0,
+        3.165,
+        2.7
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Poster"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Poster_Header",
+      "type": "MESH",
+      "loc": [
+        0.0,
+        2.95,
+        5.12
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Ink"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Rim",
+      "type": "LIGHT",
+      "loc": [
+        0.0,
+        0.6,
+        4.6
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [],
+      "hide_render": false,
+      "light": "AREA",
+      "energy": 260.0
+    },
+    {
+      "name": "Roller",
+      "type": "MESH",
+      "loc": [
+        1.06,
+        0.91,
+        1.795
+      ],
+      "parent": "bit-headphones",
+      "animated": true,
+      "action": "RollerAction.004",
+      "mods": [],
+      "mats": [
+        "Coral"
+      ],
+      "hide_render": false,
+      "verts": 64,
+      "polys": 34
+    },
+    {
+      "name": "Roller_arm",
+      "type": "MESH",
+      "loc": [
+        1.035,
+        0.9,
+        1.77
+      ],
+      "parent": "bit-headphones",
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Ink"
+      ],
+      "hide_render": false,
+      "verts": 32,
+      "polys": 18
+    },
+    {
+      "name": "Roller_pole",
+      "type": "MESH",
+      "loc": [
+        0.855,
+        0.22,
+        1.148
+      ],
+      "parent": "bit-headphones",
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Ink"
+      ],
+      "hide_render": false,
+      "verts": 32,
+      "polys": 18
+    },
+    {
+      "name": "Scaffold_Plank",
+      "type": "MESH",
+      "loc": [
+        0.0,
+        2.15,
+        1.3
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Plank"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Scaffold_Rail",
+      "type": "MESH",
+      "loc": [
+        0.0,
+        2.63,
+        2.2
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Ink"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Spot_0",
+      "type": "LIGHT",
+      "loc": [
+        -2.86,
+        -2.6,
+        7.6
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [],
+      "hide_render": false,
+      "light": "SPOT",
+      "energy": 2200.0
+    },
+    {
+      "name": "Spot_1",
+      "type": "LIGHT",
+      "loc": [
+        2.86,
+        -2.6,
+        7.6
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [],
+      "hide_render": false,
+      "light": "SPOT",
+      "energy": 2200.0
+    },
+    {
+      "name": "Spot_aim_0",
+      "type": "EMPTY",
+      "loc": [
+        -1.95,
+        3.15,
+        3.0
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [],
+      "hide_render": false
+    },
+    {
+      "name": "Spot_aim_1",
+      "type": "EMPTY",
+      "loc": [
+        1.95,
+        3.15,
+        3.0
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [],
+      "hide_render": false
+    },
+    {
+      "name": "Sticker_bit",
+      "type": "MESH",
+      "loc": [
+        5.05,
+        3.168,
+        2.45
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Sticker_11.004"
+      ],
+      "hide_render": false,
+      "verts": 4,
+      "polys": 1
+    },
+    {
+      "name": "Sticker_bit-coffee",
+      "type": "MESH",
+      "loc": [
+        -7.4,
+        3.19,
+        4.9
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Sticker_0.004"
+      ],
+      "hide_render": false,
+      "verts": 4,
+      "polys": 1
+    },
+    {
+      "name": "Sticker_bit-crown",
+      "type": "MESH",
+      "loc": [
+        -5.6,
+        3.188,
+        5.4
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Sticker_1.004"
+      ],
+      "hide_render": false,
+      "verts": 4,
+      "polys": 1
+    },
+    {
+      "name": "Sticker_bit-debug",
+      "type": "MESH",
+      "loc": [
+        -6.5,
+        3.186,
+        3.6
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Sticker_2.004"
+      ],
+      "hide_render": false,
+      "verts": 4,
+      "polys": 1
+    },
+    {
+      "name": "Sticker_bit-headphones",
+      "type": "MESH",
+      "loc": [
+        -4.95,
+        3.184,
+        3.9
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Sticker_3.004"
+      ],
+      "hide_render": false,
+      "verts": 4,
+      "polys": 1
+    },
+    {
+      "name": "Sticker_bit-heart",
+      "type": "MESH",
+      "loc": [
+        -7.2,
+        3.182,
+        2.1
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Sticker_4.004"
+      ],
+      "hide_render": false,
+      "verts": 4,
+      "polys": 1
+    },
+    {
+      "name": "Sticker_bit-laptop",
+      "type": "MESH",
+      "loc": [
+        -5.5,
+        3.18,
+        2.25
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Sticker_5.004"
+      ],
+      "hide_render": false,
+      "verts": 4,
+      "polys": 1
+    },
+    {
+      "name": "Sticker_bit-rocket",
+      "type": "MESH",
+      "loc": [
+        -6.3,
+        3.178,
+        0.85
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Sticker_6.004"
+      ],
+      "hide_render": false,
+      "verts": 4,
+      "polys": 1
+    },
+    {
+      "name": "Sticker_bit-shades",
+      "type": "MESH",
+      "loc": [
+        -4.9,
+        3.176,
+        0.95
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Sticker_7.004"
+      ],
+      "hide_render": false,
+      "verts": 4,
+      "polys": 1
+    },
+    {
+      "name": "Sticker_bit-sleep",
+      "type": "MESH",
+      "loc": [
+        5.0,
+        3.174,
+        5.35
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Sticker_8.004"
+      ],
+      "hide_render": false,
+      "verts": 4,
+      "polys": 1
+    },
+    {
+      "name": "Sticker_bit-streak",
+      "type": "MESH",
+      "loc": [
+        6.9,
+        3.172,
+        5.0
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Sticker_9.004"
+      ],
+      "hide_render": false,
+      "verts": 4,
+      "polys": 1
+    },
+    {
+      "name": "Sticker_bit-wave",
+      "type": "MESH",
+      "loc": [
+        7.6,
+        3.17,
+        2.55
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Sticker_10.004"
+      ],
+      "hide_render": false,
+      "verts": 4,
+      "polys": 1
+    },
+    {
+      "name": "Sticker_text-ship-it",
+      "type": "MESH",
+      "loc": [
+        5.55,
+        3.166,
+        1.55
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Sticker_12.004"
+      ],
+      "hide_render": false,
+      "verts": 4,
+      "polys": 1
+    },
+    {
+      "name": "Sticker_text-shipping",
+      "type": "MESH",
+      "loc": [
+        -6.6,
+        3.164,
+        0.45
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Sticker_13.004"
+      ],
+      "hide_render": false,
+      "verts": 4,
+      "polys": 1
+    },
+    {
+      "name": "Sticker_text-works-on-my-machine",
+      "type": "MESH",
+      "loc": [
+        6.45,
+        3.162,
+        0.6
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Sticker_14.004"
+      ],
+      "hide_render": false,
+      "verts": 4,
+      "polys": 1
+    },
+    {
+      "name": "String_wire",
+      "type": "CURVE",
+      "loc": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Wire"
+      ],
+      "hide_render": false
+    },
+    {
+      "name": "Sun",
+      "type": "LIGHT",
+      "loc": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [],
+      "hide_render": false,
+      "light": "SUN",
+      "energy": 0.25
+    },
+    {
+      "name": "Tape_0",
+      "type": "MESH",
+      "loc": [
+        -4.1,
+        3.144,
+        0.5
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Tape"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Tape_1",
+      "type": "MESH",
+      "loc": [
+        4.1,
+        3.144,
+        0.5
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Tape"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Trail_0",
+      "type": "MESH",
+      "loc": [
+        10.15,
+        -3.29,
+        8.55
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "Trail_0Action.004",
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Coral"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Trail_1",
+      "type": "MESH",
+      "loc": [
+        10.15,
+        -3.23,
+        8.55
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "Trail_1Action.004",
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Peach"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Trail_2",
+      "type": "MESH",
+      "loc": [
+        10.15,
+        -3.17,
+        8.55
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "Trail_2Action.004",
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Coral"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Trail_3",
+      "type": "MESH",
+      "loc": [
+        10.15,
+        -3.11,
+        8.55
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "Trail_3Action.004",
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Peach"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Wall",
+      "type": "MESH",
+      "loc": [
+        0.0,
+        3.25,
+        7.0
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Studio_Wall.004"
+      ],
+      "hide_render": false,
+      "verts": 8,
+      "polys": 6
+    },
+    {
+      "name": "Word_tech",
+      "type": "FONT",
+      "loc": [
+        1.174,
+        3.118,
+        2.95
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Ink"
+      ],
+      "hide_render": false,
+      "body": "tech"
+    },
+    {
+      "name": "Word_ubits",
+      "type": "FONT",
+      "loc": [
+        -2.251,
+        3.118,
+        2.95
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Ink"
+      ],
+      "hide_render": false,
+      "body": "ubits"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Air_bit_0Action.004"
+    },
+    {
+      "name": "Air_bit_10Action.004"
+    },
+    {
+      "name": "Air_bit_11Action.004"
+    },
+    {
+      "name": "Air_bit_12Action.004"
+    },
+    {
+      "name": "Air_bit_13Action.004"
+    },
+    {
+      "name": "Air_bit_14Action.004"
+    },
+    {
+      "name": "Air_bit_15Action.004"
+    },
+    {
+      "name": "Air_bit_16Action.004"
+    },
+    {
+      "name": "Air_bit_17Action.004"
+    },
+    {
+      "name": "Air_bit_18Action.004"
+    },
+    {
+      "name": "Air_bit_19Action.004"
+    },
+    {
+      "name": "Air_bit_1Action.004"
+    },
+    {
+      "name": "Air_bit_20Action.004"
+    },
+    {
+      "name": "Air_bit_21Action.004"
+    },
+    {
+      "name": "Air_bit_22Action.004"
+    },
+    {
+      "name": "Air_bit_23Action.004"
+    },
+    {
+      "name": "Air_bit_24Action.004"
+    },
+    {
+      "name": "Air_bit_25Action.004"
+    },
+    {
+      "name": "Air_bit_2Action.004"
+    },
+    {
+      "name": "Air_bit_3Action.004"
+    },
+    {
+      "name": "Air_bit_4Action.004"
+    },
+    {
+      "name": "Air_bit_5Action.004"
+    },
+    {
+      "name": "Air_bit_6Action.004"
+    },
+    {
+      "name": "Air_bit_7Action.004"
+    },
+    {
+      "name": "Air_bit_8Action.004"
+    },
+    {
+      "name": "Air_bit_9Action.004"
+    },
+    {
+      "name": "bit-coffee_bitAction.004"
+    },
+    {
+      "name": "bit-coffeeAction.004"
+    },
+    {
+      "name": "bit-crown_bitAction.004"
+    },
+    {
+      "name": "bit-crownAction.004"
+    },
+    {
+      "name": "bit-debug_bitAction.004"
+    },
+    {
+      "name": "bit-debugAction.004"
+    },
+    {
+      "name": "bit-headphones_bitAction.004"
+    },
+    {
+      "name": "bit-headphonesAction.004"
+    },
+    {
+      "name": "bit-heart_bitAction.004"
+    },
+    {
+      "name": "bit-heartAction.004"
+    },
+    {
+      "name": "bit-laptop_bitAction.004"
+    },
+    {
+      "name": "bit-laptopAction.004"
+    },
+    {
+      "name": "bit-rocketAction.004"
+    },
+    {
+      "name": "bit-shades_bitAction.004"
+    },
+    {
+      "name": "bit-shadesAction.004"
+    },
+    {
+      "name": "bit-sleep_bitAction.004"
+    },
+    {
+      "name": "bit-sleepAction.004"
+    },
+    {
+      "name": "bit-streak_bitAction.004"
+    },
+    {
+      "name": "bit-streakAction.004"
+    },
+    {
+      "name": "bit-wave_bitAction.004"
+    },
+    {
+      "name": "bit-waveAction.004"
+    },
+    {
+      "name": "bit_bitAction.004"
+    },
+    {
+      "name": "bitAction.004"
+    },
+    {
+      "name": "Cam_TargetAction.004"
+    },
+    {
+      "name": "Camera.005Action"
+    },
+    {
+      "name": "Camera.006Action"
+    },
+    {
+      "name": "Camera.007Action"
+    },
+    {
+      "name": "Camera.008Action"
+    },
+    {
+      "name": "Camera.009Action"
+    },
+    {
+      "name": "Camera_Loop.001Action"
+    },
+    {
+      "name": "Camera_Loop_TargetAction.001"
+    },
+    {
+      "name": "Camera_LoopAction.001"
+    },
+    {
+      "name": "Camera_LoopAction.002"
+    },
+    {
+      "name": "Camera_V.001Action"
+    },
+    {
+      "name": "Camera_V_TargetAction.001"
+    },
+    {
+      "name": "Camera_VAction.001"
+    },
+    {
+      "name": "Camera_VAction.002"
+    },
+    {
+      "name": "CameraAction.004"
+    },
+    {
+      "name": "Dot_bitAction.004"
+    },
+    {
+      "name": "HighlighterAction.004"
+    },
+    {
+      "name": "RollerAction.004"
+    },
+    {
+      "name": "Trail_0Action.004"
+    },
+    {
+      "name": "Trail_1Action.004"
+    },
+    {
+      "name": "Trail_2Action.004"
+    },
+    {
+      "name": "Trail_3Action.004"
+    }
+  ],
+  "materials_summary": [
+    {
+      "name": "Bit_b",
+      "base": [
+        0.839,
+        0.323,
+        0.168
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.45
+    },
+    {
+      "name": "Bit_c",
+      "base": [
+        0.195,
+        0.068,
+        0.023
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.45
+    },
+    {
+      "name": "Bit_e",
+      "base": [
+        0.003,
+        0.001,
+        0.003
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.2
+    },
+    {
+      "name": "Bit_G",
+      "base": [
+        0.584,
+        0.254,
+        0.012
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.45
+    },
+    {
+      "name": "Bit_h",
+      "base": [
+        0.93,
+        0.527,
+        0.254
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.45
+    },
+    {
+      "name": "Bit_k",
+      "base": [
+        0.042,
+        0.023,
+        0.033
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.35
+    },
+    {
+      "name": "Bit_l",
+      "base": [
+        0.521,
+        0.768,
+        0.888
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.08
+    },
+    {
+      "name": "Bit_m",
+      "base": [
+        0.254,
+        0.195,
+        0.235
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.3
+    },
+    {
+      "name": "Bit_o",
+      "base": [
+        0.839,
+        0.323,
+        0.168
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.45
+    },
+    {
+      "name": "Bit_p",
+      "base": [
+        0.888,
+        0.479,
+        0.07
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.45
+    },
+    {
+      "name": "Bit_q",
+      "base": [
+        0.93,
+        0.527,
+        0.254
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.45
+    },
+    {
+      "name": "Bit_Q",
+      "base": [
+        0.578,
+        0.07,
+        0.162
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.45
+    },
+    {
+      "name": "Bit_r",
+      "base": [
+        0.578,
+        0.07,
+        0.162
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.45
+    },
+    {
+      "name": "Bit_R",
+      "base": [
+        0.745,
+        0.063,
+        0.114
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.45
+    },
+    {
+      "name": "Bit_s",
+      "base": [
+        0.578,
+        0.07,
+        0.162
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.45
+    },
+    {
+      "name": "Bit_w",
+      "base": [
+        1.0,
+        0.956,
+        0.913
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.35
+    },
+    {
+      "name": "Bit_y",
+      "base": [
+        0.93,
+        0.527,
+        0.254
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.45
+    },
+    {
+      "name": "Bulb",
+      "base": [
+        1.0,
+        0.644,
+        0.352
+      ],
+      "emit": 14.0,
+      "emit_col": [
+        1.0,
+        0.644,
+        0.352
+      ],
+      "metal": 0.0,
+      "rough": 0.5
+    },
+    {
+      "name": "Coral",
+      "base": [
+        0.839,
+        0.323,
+        0.168
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.45
+    },
+    {
+      "name": "Crate",
+      "base": [
+        0.195,
+        0.068,
+        0.023
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.7
+    },
+    {
+      "name": "Dots Stroke",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.5
+    },
+    {
+      "name": "Highlighter",
+      "base": [
+        0.93,
+        0.527,
+        0.254
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.7
+    },
+    {
+      "name": "Ink",
+      "base": [
+        0.003,
+        0.001,
+        0.003
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.5
+    },
+    {
+      "name": "Mark_Gradient",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.4
+    },
+    {
+      "name": "Material",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.5
+    },
+    {
+      "name": "Neon",
+      "base": [
+        1.0,
+        0.102,
+        0.195
+      ],
+      "emit": 9.0,
+      "emit_col": [
+        1.0,
+        0.102,
+        0.195
+      ],
+      "metal": 0.0,
+      "rough": 0.5
+    },
+    {
+      "name": "Paper",
+      "base": [
+        0.922,
+        0.863,
+        0.815
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.9
+    },
+    {
+      "name": "Peach",
+      "base": [
+        0.93,
+        0.527,
+        0.254
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.5
+    },
+    {
+      "name": "Plank",
+      "base": [
+        0.042,
+        0.023,
+        0.033
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.6
+    },
+    {
+      "name": "Poster",
+      "base": [
+        1.0,
+        0.956,
+        0.913
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.85
+    },
+    {
+      "name": "Rose",
+      "base": [
+        0.578,
+        0.07,
+        0.162
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.4
+    },
+    {
+      "name": "Sticker_0",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-coffee.png"
+      ]
+    },
+    {
+      "name": "Sticker_0.001",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-coffee.png"
+      ]
+    },
+    {
+      "name": "Sticker_0.002",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-coffee.png"
+      ]
+    },
+    {
+      "name": "Sticker_0.003",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-coffee.png"
+      ]
+    },
+    {
+      "name": "Sticker_0.004",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-coffee.png"
+      ]
+    },
+    {
+      "name": "Sticker_1",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-crown.png"
+      ]
+    },
+    {
+      "name": "Sticker_1.001",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-crown.png"
+      ]
+    },
+    {
+      "name": "Sticker_1.002",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-crown.png"
+      ]
+    },
+    {
+      "name": "Sticker_1.003",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-crown.png"
+      ]
+    },
+    {
+      "name": "Sticker_1.004",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-crown.png"
+      ]
+    },
+    {
+      "name": "Sticker_10",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-wave.png"
+      ]
+    },
+    {
+      "name": "Sticker_10.001",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-wave.png"
+      ]
+    },
+    {
+      "name": "Sticker_10.002",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-wave.png"
+      ]
+    },
+    {
+      "name": "Sticker_10.003",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-wave.png"
+      ]
+    },
+    {
+      "name": "Sticker_10.004",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-wave.png"
+      ]
+    },
+    {
+      "name": "Sticker_11",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit.png"
+      ]
+    },
+    {
+      "name": "Sticker_11.001",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit.png"
+      ]
+    },
+    {
+      "name": "Sticker_11.002",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit.png"
+      ]
+    },
+    {
+      "name": "Sticker_11.003",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit.png"
+      ]
+    },
+    {
+      "name": "Sticker_11.004",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit.png"
+      ]
+    },
+    {
+      "name": "Sticker_12",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "text-ship-it.png"
+      ]
+    },
+    {
+      "name": "Sticker_12.001",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "text-ship-it.png"
+      ]
+    },
+    {
+      "name": "Sticker_12.002",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "text-ship-it.png"
+      ]
+    },
+    {
+      "name": "Sticker_12.003",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "text-ship-it.png"
+      ]
+    },
+    {
+      "name": "Sticker_12.004",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "text-ship-it.png"
+      ]
+    },
+    {
+      "name": "Sticker_13",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "text-shipping.png"
+      ]
+    },
+    {
+      "name": "Sticker_13.001",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "text-shipping.png"
+      ]
+    },
+    {
+      "name": "Sticker_13.002",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "text-shipping.png"
+      ]
+    },
+    {
+      "name": "Sticker_13.003",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "text-shipping.png"
+      ]
+    },
+    {
+      "name": "Sticker_13.004",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "text-shipping.png"
+      ]
+    },
+    {
+      "name": "Sticker_14",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "text-works-on-my-machine.png"
+      ]
+    },
+    {
+      "name": "Sticker_14.001",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "text-works-on-my-machine.png"
+      ]
+    },
+    {
+      "name": "Sticker_14.002",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "text-works-on-my-machine.png"
+      ]
+    },
+    {
+      "name": "Sticker_14.003",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "text-works-on-my-machine.png"
+      ]
+    },
+    {
+      "name": "Sticker_14.004",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "text-works-on-my-machine.png"
+      ]
+    },
+    {
+      "name": "Sticker_2",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-debug.png"
+      ]
+    },
+    {
+      "name": "Sticker_2.001",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-debug.png"
+      ]
+    },
+    {
+      "name": "Sticker_2.002",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-debug.png"
+      ]
+    },
+    {
+      "name": "Sticker_2.003",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-debug.png"
+      ]
+    },
+    {
+      "name": "Sticker_2.004",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-debug.png"
+      ]
+    },
+    {
+      "name": "Sticker_3",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-headphones.png"
+      ]
+    },
+    {
+      "name": "Sticker_3.001",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-headphones.png"
+      ]
+    },
+    {
+      "name": "Sticker_3.002",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-headphones.png"
+      ]
+    },
+    {
+      "name": "Sticker_3.003",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-headphones.png"
+      ]
+    },
+    {
+      "name": "Sticker_3.004",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-headphones.png"
+      ]
+    },
+    {
+      "name": "Sticker_4",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-heart.png"
+      ]
+    },
+    {
+      "name": "Sticker_4.001",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-heart.png"
+      ]
+    },
+    {
+      "name": "Sticker_4.002",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-heart.png"
+      ]
+    },
+    {
+      "name": "Sticker_4.003",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-heart.png"
+      ]
+    },
+    {
+      "name": "Sticker_4.004",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-heart.png"
+      ]
+    },
+    {
+      "name": "Sticker_5",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-laptop.png"
+      ]
+    },
+    {
+      "name": "Sticker_5.001",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-laptop.png"
+      ]
+    },
+    {
+      "name": "Sticker_5.002",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-laptop.png"
+      ]
+    },
+    {
+      "name": "Sticker_5.003",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-laptop.png"
+      ]
+    },
+    {
+      "name": "Sticker_5.004",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-laptop.png"
+      ]
+    },
+    {
+      "name": "Sticker_6",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-rocket.png"
+      ]
+    },
+    {
+      "name": "Sticker_6.001",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-rocket.png"
+      ]
+    },
+    {
+      "name": "Sticker_6.002",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-rocket.png"
+      ]
+    },
+    {
+      "name": "Sticker_6.003",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-rocket.png"
+      ]
+    },
+    {
+      "name": "Sticker_6.004",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-rocket.png"
+      ]
+    },
+    {
+      "name": "Sticker_7",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-shades.png"
+      ]
+    },
+    {
+      "name": "Sticker_7.001",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-shades.png"
+      ]
+    },
+    {
+      "name": "Sticker_7.002",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-shades.png"
+      ]
+    },
+    {
+      "name": "Sticker_7.003",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-shades.png"
+      ]
+    },
+    {
+      "name": "Sticker_7.004",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-shades.png"
+      ]
+    },
+    {
+      "name": "Sticker_8",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-sleep.png"
+      ]
+    },
+    {
+      "name": "Sticker_8.001",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-sleep.png"
+      ]
+    },
+    {
+      "name": "Sticker_8.002",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-sleep.png"
+      ]
+    },
+    {
+      "name": "Sticker_8.003",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-sleep.png"
+      ]
+    },
+    {
+      "name": "Sticker_8.004",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-sleep.png"
+      ]
+    },
+    {
+      "name": "Sticker_9",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-streak.png"
+      ]
+    },
+    {
+      "name": "Sticker_9.001",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-streak.png"
+      ]
+    },
+    {
+      "name": "Sticker_9.002",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-streak.png"
+      ]
+    },
+    {
+      "name": "Sticker_9.003",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-streak.png"
+      ]
+    },
+    {
+      "name": "Sticker_9.004",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.55,
+      "images": [
+        "bit-streak.png"
+      ]
+    },
+    {
+      "name": "Studio_Floor",
+      "base": [
+        0.024,
+        0.01,
+        0.017
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.28
+    },
+    {
+      "name": "Studio_Wall",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.85
+    },
+    {
+      "name": "Studio_Wall.001",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.85
+    },
+    {
+      "name": "Studio_Wall.002",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.85
+    },
+    {
+      "name": "Studio_Wall.003",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.85
+    },
+    {
+      "name": "Studio_Wall.004",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.85
+    },
+    {
+      "name": "Tape",
+      "base": [
+        0.93,
+        0.527,
+        0.254
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.6
+    },
+    {
+      "name": "Wall",
+      "base": [
+        0.922,
+        0.863,
+        0.815
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.95
+    },
+    {
+      "name": "Wire",
+      "base": [
+        0.003,
+        0.001,
+        0.003
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.5
+    }
+  ],
+  "text_blocks": [],
+  "scenes": [
+    {
+      "name": "Scene",
+      "frames": [
+        1,
+        276
+      ],
+      "fps": 24,
+      "res": [
+        1920,
+        1080
+      ],
+      "engine": "BLENDER_EEVEE",
+      "cam": "Camera",
+      "out": "/home\\ua\\Desktop\\ubits-brand\\3d\\film\\frames\\f_",
+      "fmt": "PNG"
+    }
+  ],
+  "images": [
+    {
+      "name": "bit-coffee.png",
+      "path": "/home\\ua\\Desktop\\ubits-brand\\stickers\\png\\bit-coffee.png"
+    },
+    {
+      "name": "bit-crown.png",
+      "path": "/home\\ua\\Desktop\\ubits-brand\\stickers\\png\\bit-crown.png"
+    },
+    {
+      "name": "bit-debug.png",
+      "path": "/home\\ua\\Desktop\\ubits-brand\\stickers\\png\\bit-debug.png"
+    },
+    {
+      "name": "bit-headphones.png",
+      "path": "/home\\ua\\Desktop\\ubits-brand\\stickers\\png\\bit-headphones.png"
+    },
+    {
+      "name": "bit-heart.png",
+      "path": "/home\\ua\\Desktop\\ubits-brand\\stickers\\png\\bit-heart.png"
+    },
+    {
+      "name": "bit-laptop.png",
+      "path": "/home\\ua\\Desktop\\ubits-brand\\stickers\\png\\bit-laptop.png"
+    },
+    {
+      "name": "bit-rocket.png",
+      "path": "/home\\ua\\Desktop\\ubits-brand\\stickers\\png\\bit-rocket.png"
+    },
+    {
+      "name": "bit-shades.png",
+      "path": "/home\\ua\\Desktop\\ubits-brand\\stickers\\png\\bit-shades.png"
+    },
+    {
+      "name": "bit-sleep.png",
+      "path": "/home\\ua\\Desktop\\ubits-brand\\stickers\\png\\bit-sleep.png"
+    },
+    {
+      "name": "bit-streak.png",
+      "path": "/home\\ua\\Desktop\\ubits-brand\\stickers\\png\\bit-streak.png"
+    },
+    {
+      "name": "bit-wave.png",
+      "path": "/home\\ua\\Desktop\\ubits-brand\\stickers\\png\\bit-wave.png"
+    },
+    {
+      "name": "bit.png",
+      "path": "/home\\ua\\Desktop\\ubits-brand\\stickers\\png\\bit.png"
+    },
+    {
+      "name": "Render Result",
+      "path": ""
+    },
+    {
+      "name": "text-ship-it.png",
+      "path": "/home\\ua\\Desktop\\ubits-brand\\stickers\\png\\text-ship-it.png"
+    },
+    {
+      "name": "text-shipping.png",
+      "path": "/home\\ua\\Desktop\\ubits-brand\\stickers\\png\\text-shipping.png"
+    },
+    {
+      "name": "text-works-on-my-machine.png",
+      "path": "/home\\ua\\Desktop\\ubits-brand\\stickers\\png\\text-works-on-my-machine.png"
+    }
+  ],
+  "node_groups": [
+    "Compositing Nodetree"
+  ],
+  "world_nodes": [
+    "OUTPUT_WORLD:World Output",
+    "BACKGROUND:Background",
+    "PRINCIPLED_VOLUME:Principled Volume",
+    "PRINCIPLED_VOLUME:Principled Volume.001",
+    "PRINCIPLED_VOLUME:Principled Volume.002",
+    "PRINCIPLED_VOLUME:Principled Volume.003",
+    "PRINCIPLED_VOLUME:Principled Volume.004"
+  ]
+}

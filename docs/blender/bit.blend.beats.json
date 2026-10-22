@@ -1,0 +1,57 @@
+{
+  "file": "C:\\Users\\ua\\Documents\\grokbots_ubits_blender_mcp\\bit.blend",
+  "render": {
+    "engine": "BLENDER_EEVEE",
+    "res": [
+      1600,
+      1600
+    ],
+    "fps": 24,
+    "frames": [
+      1,
+      96
+    ],
+    "filepath": "/home\\ua\\Desktop\\ubits-brand\\3d\\bit-3d-hero.png",
+    "format": "PNG",
+    "camera": "Camera",
+    "eevee": {}
+  },
+  "focus": [
+    {
+      "name": "Bit_Square",
+      "type": "MESH",
+      "loc": [
+        0.4000000059604645,
+        0.0,
+        1.4760842323303223
+      ],
+      "hide_render": false,
+      "action": {
+        "name": "Bit_SquareAction.001",
+        "fcurves": []
+      },
+      "constraints": []
+    },
+    {
+      "name": "Camera",
+      "type": "CAMERA",
+      "loc": [
+        1.75,
+        -3.75,
+        1.2000000476837158
+      ],
+      "hide_render": false,
+      "constraints": [
+        {
+          "type": "TRACK_TO",
+          "name": "Track To",
+          "target": "Bit_Target"
+        }
+      ]
+    }
+  ],
+  "chars": [],
+  "stickers": [],
+  "air_bits": 0,
+  "bulbs": 0
+}

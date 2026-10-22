@@ -1,0 +1,366 @@
+{
+  "file": "C:\\Users\\ua\\Documents\\grokbots_ubits_blender_mcp\\bit.blend",
+  "frame_start": 1,
+  "frame_end": 96,
+  "fps": 24,
+  "res": [
+    1600,
+    1600
+  ],
+  "engine": "BLENDER_EEVEE",
+  "filepath": "/home\\ua\\Desktop\\ubits-brand\\3d\\bit-3d-hero.png",
+  "file_format": "PNG",
+  "camera": "Camera",
+  "markers": [],
+  "collections": [
+    {
+      "name": "Bit",
+      "objects": [
+        "Bit_Body",
+        "Bit_Square",
+        "Paper_Backdrop",
+        "Key",
+        "Fill",
+        "Rim",
+        "Bit_Target",
+        "Camera"
+      ],
+      "children": []
+    },
+    {
+      "name": "Collection",
+      "objects": [],
+      "children": []
+    }
+  ],
+  "objects": [
+    {
+      "name": "Bit_Body",
+      "type": "MESH",
+      "loc": [
+        -0.75,
+        -0.4,
+        0.0
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Bit_b",
+        "Bit_h",
+        "Bit_s",
+        "Bit_e"
+      ],
+      "hide_render": false,
+      "verts": 684,
+      "polys": 682
+    },
+    {
+      "name": "Bit_Square",
+      "type": "MESH",
+      "loc": [
+        0.4,
+        0.0,
+        1.476
+      ],
+      "parent": null,
+      "animated": true,
+      "action": "Bit_SquareAction.001",
+      "mods": [
+        "BEVEL:Bevel"
+      ],
+      "mats": [
+        "Bit_q",
+        "Bit_Q"
+      ],
+      "hide_render": false,
+      "verts": 56,
+      "polys": 54
+    },
+    {
+      "name": "Bit_Target",
+      "type": "EMPTY",
+      "loc": [
+        0.0,
+        0.0,
+        0.78
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [],
+      "hide_render": false
+    },
+    {
+      "name": "Camera",
+      "type": "CAMERA",
+      "loc": [
+        1.75,
+        -3.75,
+        1.2
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [],
+      "hide_render": false,
+      "lens": 55.0
+    },
+    {
+      "name": "Fill",
+      "type": "LIGHT",
+      "loc": [
+        2.2,
+        -1.6,
+        1.0
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [],
+      "hide_render": false,
+      "light": "AREA",
+      "energy": 30.0
+    },
+    {
+      "name": "Key",
+      "type": "LIGHT",
+      "loc": [
+        -1.6,
+        -2.2,
+        2.6
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [],
+      "hide_render": false,
+      "light": "AREA",
+      "energy": 110.0
+    },
+    {
+      "name": "Paper_Backdrop",
+      "type": "MESH",
+      "loc": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [
+        "Paper"
+      ],
+      "hide_render": false,
+      "verts": 36,
+      "polys": 17
+    },
+    {
+      "name": "Rim",
+      "type": "LIGHT",
+      "loc": [
+        1.2,
+        2.0,
+        2.4
+      ],
+      "parent": null,
+      "animated": false,
+      "action": null,
+      "mods": [],
+      "mats": [],
+      "hide_render": false,
+      "light": "AREA",
+      "energy": 80.0
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bit_SquareAction.001"
+    }
+  ],
+  "materials_summary": [
+    {
+      "name": "Bit_b",
+      "base": [
+        0.839,
+        0.323,
+        0.168
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.45
+    },
+    {
+      "name": "Bit_e",
+      "base": [
+        0.003,
+        0.001,
+        0.003
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.2
+    },
+    {
+      "name": "Bit_h",
+      "base": [
+        0.93,
+        0.527,
+        0.254
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.45
+    },
+    {
+      "name": "Bit_q",
+      "base": [
+        0.93,
+        0.527,
+        0.254
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.45
+    },
+    {
+      "name": "Bit_Q",
+      "base": [
+        0.578,
+        0.07,
+        0.162
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.45
+    },
+    {
+      "name": "Bit_s",
+      "base": [
+        0.578,
+        0.07,
+        0.162
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.45
+    },
+    {
+      "name": "Dots Stroke",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.5
+    },
+    {
+      "name": "Material",
+      "base": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.5
+    },
+    {
+      "name": "Paper",
+      "base": [
+        0.922,
+        0.863,
+        0.815
+      ],
+      "emit": 0.0,
+      "emit_col": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.9
+    }
+  ],
+  "text_blocks": [],
+  "scenes": [
+    {
+      "name": "Scene",
+      "frames": [
+        1,
+        96
+      ],
+      "fps": 24,
+      "res": [
+        1600,
+        1600
+      ],
+      "engine": "BLENDER_EEVEE",
+      "cam": "Camera",
+      "out": "/home\\ua\\Desktop\\ubits-brand\\3d\\bit-3d-hero.png",
+      "fmt": "PNG"
+    }
+  ],
+  "images": [
+    {
+      "name": "Render Result",
+      "path": ""
+    }
+  ],
+  "node_groups": [],
+  "world_nodes": [
+    "OUTPUT_WORLD:World Output",
+    "BACKGROUND:Background"
+  ]
+}
